@@ -4,9 +4,12 @@ when:
     - push
     - manual
 
+depends_on:
+  - build-image
+
 steps:
   init:
-    image: codeberg.org/${CI_REPO_OWNER}/vercel
+    image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} project add sveltekit-robinopletal
@@ -14,7 +17,7 @@ steps:
     secrets: [ VERCEL ]
 
   build:
-    image: codeberg.org/${CI_REPO_OWNER}/vercel
+    image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} pull
@@ -22,19 +25,17 @@ steps:
     secrets: [ VERCEL ]
 
   deploy-preview:
-    image: codeberg.org/${CI_REPO_OWNER}/vercel
+    image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} deploy --prebuilt | tee url.txt
     secrets: [ VERCEL ]
 
   deploy-production:
-    image: codeberg.org/${CI_REPO_OWNER}/vercel
+    image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} promote `cat url.txt` --yes
     secrets: [ VERCEL ]
     when:
       - evaluate: CI_COMMIT_BRANCH == CI_REPO_DEFAULT_BRANCH
-        event:
-          - deployment
