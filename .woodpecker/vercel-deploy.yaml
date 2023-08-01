@@ -4,9 +4,6 @@ when:
     - push
     - manual
 
-depends_on:
-  - build-image
-
 steps:
   init:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
