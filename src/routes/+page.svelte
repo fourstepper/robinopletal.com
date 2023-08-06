@@ -9,7 +9,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section class="container mx-auto mb-auto px-4">
+<section>
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus
     ipsam amet quas unde blanditiis eius. Fuga corrupti minus, optio minima
