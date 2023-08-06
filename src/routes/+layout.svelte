@@ -50,7 +50,7 @@
   <slot />
 
   <!-- <Footer /> -->
-  <footer class="w-screen">
+  <footer class="w-screen mb-2">
     <hr class="mb-4 h-px border-0 bg-gray-200" />
     <div class="text-center">Robin Opletal</div>
     <div
@@ -59,25 +59,28 @@
       <div>
         The content is <a
           href="https://creativecommons.org/licenses/by-sa/2.0/"
-          class="link link-hover"
+          class="link"
           target="_blank">CC-BY-SA</a
         >.
       </div>
       <div>
         The site code is
         <a
-          class="link link-hover"
+          class="link"
           href="https://www.gnu.org/licenses/agpl-3.0.en.html"
           target="_blank">AGPLv3</a
         >.
       </div>
     </div>
     <div class="text-center">
-      <a
-        class="link link-hover"
-        href="https://codeberg.org/fourstepper/robinopletal.com"
-        target="_blank">View source</a
-      >
+      <div>
+        <a
+          class="link"
+          href="https://codeberg.org/fourstepper/robinopletal.com"
+          target="_blank">View source</a
+        >
+        of the site
+      </div>
     </div>
   </footer>
 </main>
