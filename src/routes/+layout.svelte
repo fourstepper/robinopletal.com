@@ -5,9 +5,6 @@
 </script>
 
 <main class="flex flex-col h-screen justify-between">
-  <!-- wrapper that sets max width -->
-  <!-- <div class="max-w-[865px] mx-auto"> -->
-  <!-- navbar -->
   <div class="navbar max-w-[865px] mx-auto">
     <div class="navbar-start">
       <div class="dropdown">
@@ -29,7 +26,6 @@
         <ul
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <!-- menu items -->
           <!-- TODO: abstract menu items into component -->
           <li><a class="text-lg" href="/about">about</a></li>
           <li><a class="text-lg" href="/posts">posts</a></li>
