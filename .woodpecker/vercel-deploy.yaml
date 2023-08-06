@@ -11,7 +11,7 @@ steps:
     commands:
       - vercel --token $${VERCEL} project add sveltekit-robinopletal
       - vercel --token $${VERCEL} link -p sveltekit-robinopletal --yes
-    secrets: [ VERCEL ]
+    secrets: [VERCEL]
 
   build:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
@@ -19,20 +19,20 @@ steps:
     commands:
       - vercel --token $${VERCEL} pull
       - vercel build
-    secrets: [ VERCEL ]
+    secrets: [VERCEL]
 
   deploy-preview:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} deploy --prebuilt | tee url.txt
-    secrets: [ VERCEL ]
+    secrets: [VERCEL]
 
   deploy-production:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
       - vercel --token $${VERCEL} promote `cat url.txt` --yes
-    secrets: [ VERCEL ]
+    secrets: [VERCEL]
     when:
       - evaluate: CI_COMMIT_BRANCH == CI_REPO_DEFAULT_BRANCH

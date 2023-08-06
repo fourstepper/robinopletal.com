@@ -1,11 +1,11 @@
 when:
   - event:
-    - push
+      - push
     path:
-      include: [ '.woodpecker/build-image.yaml', '.woodpecker/Dockerfile' ]
+      include: [".woodpecker/build-image.yaml", ".woodpecker/Dockerfile"]
       ignore_message: "[ALL]"
   - event:
-    - manual
+      - manual
 
 steps:
   publish-image-branch:
