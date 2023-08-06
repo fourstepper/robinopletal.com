@@ -45,7 +45,7 @@
 
   <div class="py-4" />
 
-  <div class="max-w-4xl px-10 mx-auto mb-auto place-content-center">
+  <div class="max-w-4xl px-7 md:px-10 mx-auto mb-auto place-content-center">
     <slot />
   </div>
 
