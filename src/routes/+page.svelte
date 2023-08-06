@@ -9,6 +9,13 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-  <h1 class="text-8xl">Hello World</h1>
+<section class="container mx-auto mb-auto px-4">
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus
+    ipsam amet quas unde blanditiis eius. Fuga corrupti minus, optio minima
+    molestiae aliquam ipsam et aperiam excepturi! Deserunt, est soluta! Lorem
+    ipsum dolor sit amet consectetur adipisicing elit. Maiores quia accusamus
+    sed veritatis beatae explicabo fuga in magni. Doloribus placeat ducimus hic
+    enim. Tempora quaerat, neque quos illum excepturi sapiente!
+  </p>
 </section>

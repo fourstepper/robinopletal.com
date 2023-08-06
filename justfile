@@ -1,6 +1,6 @@
-start: build run
+run: build preview
 
-run:
+preview:
     npm run preview
 
 build:
