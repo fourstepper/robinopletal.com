@@ -49,31 +49,27 @@
     <slot />
   </div>
 
-  <!-- divider -->
-  <hr class="mb-2 h-px border-0 bg-gray-200" />
-
   <!-- <Footer /> -->
   <div class="max-w-4xl mx-auto place-content-center">
     <footer class="mb-2">
       <div
         class="flex flex-col sm:flex-row flex-wrap justify-between place-content-center text-sm text-center py-1 px-4"
       >
-        <div>Robin Opletal</div>
+        <a href="/" class="link-hover">Robin Opletal, 2023-{currentYear}</a>
         <div class="divider divider-horizontal" />
         <div>
-          Licensed under <a
+          <a
             href="https://creativecommons.org/licenses/by/4.0/"
             class="link-hover"
-            target="_blank">CC-BY-4.0</a
+            target="_blank">Licensed under CC-BY-4.0</a
           >
-          - 2023 - {currentYear}
         </div>
         <div class="divider divider-horizontal" />
         <div>
           <a
-            class="link hover"
+            class="link-hover"
             href="https://codeberg.org/fourstepper/robinopletal.com"
-            target="_blank">View source of the site</a
+            target="_blank">View source</a
           >
         </div>
       </div>
