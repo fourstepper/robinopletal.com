@@ -58,6 +58,8 @@
       <div
         class="flex flex-col sm:flex-row flex-wrap justify-between place-content-center text-sm text-center py-1 px-4"
       >
+        <div>Robin Opletal</div>
+        <div class="divider divider-horizontal" />
         <div>
           Licensed under <a
             href="https://creativecommons.org/licenses/by/4.0/"
