@@ -10,6 +10,7 @@ const config = {
 
   daisyui: {
     logs: false,
+      darkTheme: "custom-dark",
       themes: ["garden",
         // TODO: figure out all the colors in the custom dark mode
         {
@@ -17,7 +18,7 @@ const config = {
             "primary": "#adf989",
             "secondary": "#ede18b",
             "accent": "#c69e25",
-            "neutral": "#701a75",
+            "neutral": "#171c27",
             "base-100": "#323843",
             "info": "#96bff8",
             "success": "#6aecdd",
