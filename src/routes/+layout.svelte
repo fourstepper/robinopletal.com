@@ -4,8 +4,8 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<main class="flex flex-col h-screen justify-between">
-  <div class="navbar max-w-[865px] mx-auto">
+<main class="flex h-screen flex-col justify-between">
+  <div class="navbar mx-auto max-w-[865px]">
     <div class="navbar-start">
       <div class="dropdown">
         <label for="dropdown" tabindex="-1" class="btn btn-ghost sm:hidden">
@@ -24,7 +24,7 @@
           >
         </label>
         <ul
-          class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-2 shadow"
         >
           <!-- TODO: abstract menu items into component -->
           <li><a class="text-lg" href="/about">about</a></li>
@@ -32,7 +32,7 @@
         </ul>
       </div>
       <!-- TODO: get rid of the weird padding on the left of the site title -->
-      <a href="/" class="btn btn-ghost normal-case text-2xl">Robin Opletal</a>
+      <a href="/" class="btn btn-ghost text-2xl normal-case">Robin Opletal</a>
     </div>
     <div class="navbar-end hidden sm:flex">
       <ul class="menu menu-horizontal px-1 text-lg">
@@ -45,15 +45,17 @@
 
   <div class="py-4" />
 
-  <div class="max-w-4xl px-7 md:px-10 mx-auto mb-auto place-content-center">
+  <div
+    class="mx-auto mb-auto flex w-full max-w-4xl flex-col place-content-center gap-4 px-7 md:px-10"
+  >
     <slot />
   </div>
 
   <!-- <Footer /> -->
-  <div class="max-w-4xl mx-auto place-content-center">
+  <div class="mx-auto max-w-4xl place-content-center">
     <footer class="mb-2">
       <div
-        class="flex flex-col sm:flex-row flex-wrap justify-between place-content-center text-sm text-center py-1 px-4"
+        class="flex flex-col flex-wrap place-content-center justify-between px-4 py-1 text-center text-sm sm:flex-row"
       >
         <a href="/" class="link-hover">Robin Opletal, 2023-{currentYear}</a>
         <div class="divider divider-horizontal" />
