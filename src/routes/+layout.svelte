@@ -5,7 +5,7 @@
 </script>
 
 <main class="flex h-screen flex-col justify-between">
-  <div class="navbar mx-auto max-w-[865px]">
+  <div class="navbar mx-auto h-16 max-w-[865px]">
     <div class="navbar-start">
       <div class="dropdown">
         <label for="dropdown" tabindex="-1" class="btn btn-ghost sm:hidden">
@@ -24,11 +24,11 @@
           >
         </label>
         <ul
-          class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-2 shadow"
+          class="menu dropdown-content rounded-box menu-sm z-[1] w-52 bg-base-200 shadow"
         >
           <!-- TODO: abstract menu items into component -->
-          <li><a class="text-lg" href="/about">about</a></li>
-          <li><a class="text-lg" href="/posts">posts</a></li>
+          <li><a href="/about">about</a></li>
+          <li><a href="/posts">posts</a></li>
         </ul>
       </div>
       <!-- TODO: get rid of the weird padding on the left of the site title -->
@@ -53,9 +53,9 @@
 
   <!-- <Footer /> -->
   <div class="mx-auto max-w-4xl place-content-center">
-    <footer class="mb-2">
+    <footer class="mb-2 mt-12">
       <div
-        class="flex flex-col flex-wrap place-content-center justify-between px-4 py-1 text-center text-sm sm:flex-row"
+        class="flex flex-col flex-wrap place-content-center justify-between px-4 py-1 text-center text-xs sm:flex-row"
       >
         <a href="/" class="link-hover">Robin Opletal, 2023-{currentYear}</a>
         <div class="divider divider-horizontal" />
