@@ -32,7 +32,7 @@
         </ul>
       </div>
       <!-- TODO: get rid of the weird padding on the left of the site title -->
-      <a href="/" class="btn btn-ghost text-2xl normal-case">Robin Opletal</a>
+      <a href="/" class="btn btn-ghost no-animation text-2xl normal-case">Robin Opletal</a>
     </div>
     <div class="navbar-end hidden sm:flex">
       <ul class="menu menu-horizontal px-1 text-lg">
