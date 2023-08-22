@@ -1,7 +1,7 @@
 <script>
   import "../app.postcss";
-  import Navbar from "../components/Navbar.svelte";
-  import Footer from "../components/Footer.svelte";
+  import Navbar from "$lib/components/Navbar.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <main class="flex h-screen flex-col justify-between">
