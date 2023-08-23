@@ -1,7 +1,29 @@
-<script>
-  // import Counter from "./Counter.svelte";
-  // import welcome from "$lib/images/svelte-welcome.webp";
-  // import welcome_fallback from "$lib/images/svelte-welcome.png";
+<script lang="ts">
+	import Code from "$lib/components/Code.svelte";
+
+  const code = `
+package main
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+)
+
+func getRoot(w http.ResponseWriter, r *http.Request) {
+	io.WriteString(w, "OK\\n")
+}
+func main() {
+	http.HandleFunc("/", getRoot)
+
+	err := http.ListenAndServe(":8080", nil)
+	if err != nil {
+		fmt.Printf("error starting server: %s\\n", err)
+		os.Exit(1)
+	}
+}`
+;
 </script>
 
 <svelte:head>
@@ -10,6 +32,10 @@
 </svelte:head>
 
 <h1 class="text-2xl font-bold">This is the heading of this page</h1>
+
+<h2 class="text-xl font-bold">This is an example code block under h2</h2>
+
+<Code language="go" code={code}/>
 
 <p>
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus
@@ -46,14 +72,6 @@
   excepturi ab. Blanditiis delectus culpa sequi consectetur reprehenderit sed
   quidem id? Minus?
 </p>
-
-<h2 class="text-xl font-bold">This is an example code block under h2</h2>
-
-<div class="mockup-code mx-auto w-[100%] text-sm">
-  <pre data-prefix="$"><code>npm i daisyui</code></pre>
-  <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
-  <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
-</div>
 
 <h3 class="text-lg font-bold">This is another h3</h3>
 

@@ -24,7 +24,6 @@
         <li><a href="/posts">posts</a></li>
       </ul>
     </div>
-    <!-- TODO: get rid of the weird padding on the left of the site title -->
     <a href="/" class="btn btn-ghost no-animation text-2xl normal-case"
       >Robin Opletal</a
     >
