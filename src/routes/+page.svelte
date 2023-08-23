@@ -30,9 +30,9 @@ func main() {
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<h1 class="text-2xl font-bold">This is the heading of this page</h1>
+<h1>This is the heading of this page</h1>
 
-<h2 class="text-xl font-bold">This is an example code block under h2</h2>
+<h2>This is an example code block under h2</h2>
 
 <Code language="go" {code} />
 
@@ -45,7 +45,7 @@ func main() {
   Tempora quaerat, neque quos illum excepturi sapiente!
 </p>
 
-<h2 class="text-xl font-bold">This is an h2</h2>
+<h2>This is an h2</h2>
 
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur
@@ -54,7 +54,7 @@ func main() {
   quidem id? Minus?
 </p>
 
-<h3 class="text-lg font-bold">This is an h3</h3>
+<h3>This is an h3</h3>
 
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur
@@ -63,7 +63,7 @@ func main() {
   quidem id? Minus?
 </p>
 
-<h4 class="font-bold">This is an h4</h4>
+<h4>This is an h4</h4>
 
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur
@@ -72,7 +72,7 @@ func main() {
   quidem id? Minus?
 </p>
 
-<h3 class="text-lg font-bold">This is another h3</h3>
+<h3>This is another h3</h3>
 
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur

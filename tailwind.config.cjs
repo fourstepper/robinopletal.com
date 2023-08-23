@@ -5,6 +5,9 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
+    listStyleType: {
+      disc: 'disc',
+    },
     extend: {},
   },
 
