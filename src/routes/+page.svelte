@@ -32,6 +32,15 @@ func main() {
 
 <h1>This is the heading of this page</h1>
 
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus
+  ipsam amet quas unde blanditiis eius. Fuga corrupti minus, optio minima
+  molestiae aliquam ipsam et aperiam excepturi! Deserunt, est soluta! Lorem
+  ipsum dolor sit amet consectetur adipisicing elit. Maiores quia accusamus sed
+  veritatis beatae explicabo fuga in magni. Doloribus placeat ducimus hic enim.
+  Tempora quaerat, neque quos illum excepturi sapiente!
+</p>
+
 <h2>This is an example code block under h2</h2>
 
 <Code language="go" {code} />
