@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Code from "$lib/components/Code.svelte";
+  import Code from "$lib/components/Code.svelte";
 
   const code = `
 package main
@@ -22,8 +22,7 @@ func main() {
 		fmt.Printf("error starting server: %s\\n", err)
 		os.Exit(1)
 	}
-}`
-;
+}`;
 </script>
 
 <svelte:head>
@@ -35,7 +34,7 @@ func main() {
 
 <h2 class="text-xl font-bold">This is an example code block under h2</h2>
 
-<Code language="go" code={code}/>
+<Code language="go" {code} />
 
 <p>
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident possimus
