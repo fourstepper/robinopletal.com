@@ -1,3 +1,7 @@
+<script>
+import NavbarMenuItems from "./NavbarMenuItems.svelte";
+</script>
+
 <div class="navbar mx-auto h-16 max-w-[865px]">
   <div class="navbar-start">
     <div class="dropdown">
@@ -17,11 +21,10 @@
         >
       </label>
       <ul
-        class="menu dropdown-content rounded-box menu-sm z-[1] w-52 bg-base-200 shadow"
+        class="menu dropdown-content rounded-box z-[1] w-52 bg-base-200 shadow"
       >
-        <!-- TODO: abstract menu items into component -->
-        <li><a href="/about">about</a></li>
-        <li><a href="/posts">posts</a></li>
+        <li><a href="/">home</a></li>
+        <NavbarMenuItems />
       </ul>
     </div>
     <a href="/" class="btn btn-ghost no-animation text-2xl normal-case"
@@ -30,8 +33,7 @@
   </div>
   <div class="navbar-end hidden sm:flex">
     <ul class="menu menu-horizontal px-1 text-lg">
-      <li><a href="/about">about</a></li>
-      <li><a href="/posts">posts</a></li>
+      <NavbarMenuItems />
     </ul>
   </div>
 </div>
