@@ -24,5 +24,7 @@
     margin-right: auto;
     margin-bottom: auto;
     max-width: 56rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 </style>

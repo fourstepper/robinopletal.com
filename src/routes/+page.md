@@ -23,6 +23,7 @@ import (
 func getRoot(w http.ResponseWriter, r *http.Request) {
 	io.WriteString(w, "OK\n")
 }
+
 func main() {
 	http.HandleFunc("/", getRoot)
 
