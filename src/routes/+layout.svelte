@@ -1,19 +1,28 @@
 <script lang="ts">
-  import "../app.postcss";
+  import "../app.scss";
   import Navbar from "$lib/components/Navbar.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main class="flex h-screen flex-col justify-between">
-  <Navbar />
+<main>
+  <!-- <Navbar></Navbar> -->
 
-  <div class="py-4" />
-
-  <div
-    class="mx-auto mb-auto flex w-full max-w-4xl flex-col place-content-center gap-4 px-7 md:px-10"
-  >
+  <div class="wrapper">
     <slot />
   </div>
 
-  <Footer />
+  <Footer></Footer>
 </main>
+
+<style lang="scss">
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: 56rem;
+  }
+</style>

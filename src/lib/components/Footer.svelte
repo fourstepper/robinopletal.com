@@ -2,21 +2,15 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<div class="mx-auto max-w-4xl place-content-center">
-  <footer class="mb-2 mt-12">
-    <div
-      class="flex flex-col flex-wrap place-content-center justify-between px-4 py-1 text-center text-xs sm:flex-row"
-    >
-      <a href="/" class="link-hover">Robin Opletal, 2023-{currentYear}</a>
-      <div class="divider divider-horizontal" />
+<footer>
+  <div>
+    <a href="/">Robin Opletal, 2023-{currentYear}</a>
+    <div>
       <div>
-        <a
-          href="https://creativecommons.org/licenses/by/4.0/"
-          class="link-hover"
-          target="_blank">Licensed under CC-BY-4.0</a
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
+          >Licensed under CC-BY-4.0</a
         >
       </div>
-      <div class="divider divider-horizontal" />
       <div>
         <a
           class="link-hover"
@@ -25,5 +19,24 @@
         >
       </div>
     </div>
-  </footer>
-</div>
+  </div>
+</footer>
+
+<style lang="scss">
+  footer {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 56rem;
+    place-content: center;
+    div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      place-content: center;
+      justify-content: space-between;
+    }
+  }
+</style>
