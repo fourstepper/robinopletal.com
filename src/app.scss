@@ -19,6 +19,7 @@ body {
     }
 }
 
+// TODO: we should move this to a special "blog" layout
 :where(h2, h3, h4, h5, h6) {
   .icon-link {
     position: relative;
@@ -26,7 +27,7 @@ body {
     &::before {
       content: '#';
       position: absolute;
-      left: -1.2ch;
+      left: -1.1ch;
       top: 0;
       line-height: 1;
       opacity: 0;
