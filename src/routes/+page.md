@@ -10,6 +10,8 @@ Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labor
 
 ## This is an example code block under h2
 
+Hello world! - `This is some text`
+
 ```go
 package main
 

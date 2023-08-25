@@ -19,6 +19,14 @@ body {
     }
 }
 
+p {
+    code {
+        background-color: #dbdbdb;
+        padding: 0 0.25rem 0 0.25rem;
+        border-radius: 0.25rem;
+    }
+}
+
 // TODO: we should move this to a special "blog" layout
 :where(h2, h3, h4, h5, h6) {
   .icon-link {
