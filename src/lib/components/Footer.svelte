@@ -21,8 +21,7 @@
 <style lang="scss">
   div {
     display: flex;
-    font-size: 0.875rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
