@@ -3,6 +3,7 @@
 </script>
 
 <div>
+	<hr />
   <footer>
     <a href="/">Robin Opletal, 2023-{currentYear}</a>
     <div class="vertical-divider" />
@@ -20,12 +21,18 @@
 
 <style lang="scss">
   div {
-    display: flex;
     margin-bottom: 1rem;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 56rem;
+		hr {
+			width: 100%;
+			// height: 0px;
+			// border-top: 1px solid black;
+			opacity: 0.2;
+			margin-bottom: 1rem;
+		}
     footer {
       display: flex;
       flex: 1;
@@ -37,15 +44,16 @@
       }
       a:hover {
         text-decoration: underline;
-        text-decoration-color: $sunglow;
-        text-decoration-thickness: 0.1rem;
+        text-decoration-color: $green;
+        text-decoration-thickness: 2px;
+				text-underline-offset: 4px;
       }
     }
   }
   .vertical-divider {
-    background-color: $red-crayola;
-    width: 0.1rem;
-    margin: 0.1rem 0.5rem 0.2rem 0.5rem;
+    background-color: $red;
+    width: 2px;
+    margin: 0.1rem 1rem 0.2rem 1rem;
   }
   @media screen and (max-width: 640px) {
     .vertical-divider {
