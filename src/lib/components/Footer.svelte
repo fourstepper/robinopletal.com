@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<hr />
+  <hr />
   <footer>
     <a href="/">Robin Opletal, 2023-{currentYear}</a>
     <div class="vertical-divider" />
@@ -26,13 +26,12 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 56rem;
-		hr {
-			width: 100%;
-			// height: 0px;
-			// border-top: 1px solid black;
-			opacity: 0.2;
-			margin-bottom: 1rem;
-		}
+    hr {
+      width: 100%;
+      opacity: 0.2;
+      margin-bottom: 1rem;
+      color: $blue;
+    }
     footer {
       display: flex;
       flex: 1;
@@ -46,7 +45,7 @@
         text-decoration: underline;
         text-decoration-color: $green;
         text-decoration-thickness: 2px;
-				text-underline-offset: 4px;
+        text-underline-offset: 4px;
       }
     }
   }
@@ -64,7 +63,7 @@
     footer {
       flex-direction: column;
       align-items: center;
-			row-gap: 0.6rem;
+      row-gap: 0.6rem;
     }
   }
 </style>
