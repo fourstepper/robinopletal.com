@@ -1,6 +1,8 @@
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+
+  <title>Robin Opletal</title>
+  <!-- <meta name="description" content="Svelte demo app" /> -->
+
 </svelte:head>
 
 # This is the homepage
