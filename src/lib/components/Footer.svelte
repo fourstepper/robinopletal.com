@@ -30,7 +30,7 @@
       width: 100%;
       opacity: 0.2;
       margin-bottom: 1rem;
-      color: $blue;
+      color: getColor(blue);
     }
     footer {
       display: flex;
@@ -43,14 +43,14 @@
       }
       a:hover {
         text-decoration: underline;
-        text-decoration-color: $green;
+        text-decoration-color: getColor(green);
         text-decoration-thickness: 2px;
         text-underline-offset: 4px;
       }
     }
   }
   .vertical-divider {
-    background-color: $red;
+    background-color: getColor(red);
     width: 2px;
     margin: 0.1rem 1rem 0.2rem 1rem;
   }

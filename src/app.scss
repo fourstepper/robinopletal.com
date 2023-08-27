@@ -1,8 +1,8 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
 
 :root {
-    background-color: $background;
-    color: $foreground;
+    background-color: getColor(background);
+    color: getColor(foreground);
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,15 +21,15 @@
 
 p {
     code {
-        background-color: $background-rich;
-        color: $foreground-rich;
+        background-color: getColor(background-rich);
+        color: getColor(foreground-rich);
         padding: 0 0.25rem 0 0.25rem;
         border-radius: 0.25rem;
     }
 }
 
 h1 {
-    color: $blue;
+    color: getColor(blue);
 }
 
 // TODO: we should move this to a special "blog" layout
@@ -43,7 +43,7 @@ h1 {
       left: -1.5ch;
       top: 0;
       opacity: 0;
-      color: $foreground;
+      color: getColor(foreground);
       text-decoration: underline;
     }
   }
