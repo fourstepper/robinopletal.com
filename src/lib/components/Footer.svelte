@@ -25,7 +25,7 @@
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 56rem;
+    width: 100%;
     hr {
       width: 100%;
       opacity: 0.2;

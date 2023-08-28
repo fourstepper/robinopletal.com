@@ -5,12 +5,9 @@
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main>
-  <div class="wrapper">
-    <slot />
-  </div>
-
-  <Footer></Footer>
+<main class="wrapper">
+  <slot />
+  <Footer />
 </main>
 
 <style lang="scss">
