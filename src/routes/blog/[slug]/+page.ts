@@ -3,7 +3,7 @@ import { error } from '@sveltejs/kit';
 export async function load({ params } : { params: any }){
 	let post
 	try {
-		post = await import(`../../../lib/posts/${params.slug}.md`)
+		post = await import(`/src/lib/posts/${params.slug}.md`)
 	} catch {
 		throw error(404, "Post not found");
 	}
