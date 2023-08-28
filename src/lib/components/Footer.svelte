@@ -28,7 +28,7 @@
     width: 100%;
     hr {
       width: 100%;
-      opacity: 0.2;
+      opacity: 0.4;
       margin-bottom: 1rem;
       color: getColor(blue);
     }
