@@ -9,13 +9,14 @@ export async function load({ params } : { params: any }){
 	}
 
 	try {
-	const { title, date } = post.metadata
+	const { title, date, description} = post.metadata
 	const content = post.default
 
 	return {
 		content,
 		title,
 		date,
+		description,
 	}
 	} catch {
 		throw error(500, "Something went wrong while loading the post. Please contact the site administrator.");

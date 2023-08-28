@@ -1,6 +1,10 @@
 <script lang="ts">
-  export let data;
+  export let data: PostMetadata;
 </script>
+
+<svelte:head>
+  <meta name={data.description} />
+</svelte:head>
 
 <article>
   <h1>{data.title}</h1>
