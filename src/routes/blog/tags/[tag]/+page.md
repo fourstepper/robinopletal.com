@@ -4,6 +4,12 @@
   export let data;
 </script>
 
-# Tag: {data.params.tag}
+<h1>Tag: <span>{data.params.tag}</span></h1>
 
 <PostsList posts={data.filteredPosts} />
+
+<style lang="scss">
+span {
+	color: getColor(red);
+}
+</style>
