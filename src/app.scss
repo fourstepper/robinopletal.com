@@ -33,17 +33,24 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-underline-offset: 0.1rem;
     color: inherit;
 }
-a:visited {
+
+.hover-links {
+  a {
     text-decoration: none;
-}
-a:hover {
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
     text-decoration: underline;
     text-decoration-color: getColor(yellow);
     text-decoration-thickness: 0.15rem;
     text-underline-offset: 0.25rem;
+  }
 }
 
 // TODO: we should move this to a special "blog" layout

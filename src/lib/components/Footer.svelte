@@ -2,7 +2,7 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<div>
+<div class="hover-links">
   <hr />
   <footer>
     <a href="/">Robin Opletal, 2023-{currentYear}</a>
