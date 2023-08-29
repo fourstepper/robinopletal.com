@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import TagsList from "$lib/components/TagsList.svelte";
 
   export let data;
@@ -14,4 +14,4 @@
 
 # Tags
 
-<TagsList posts={data.posts} />
+<TagsList uniqueTags={data.uniqueTags} />

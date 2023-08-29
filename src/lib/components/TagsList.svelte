@@ -1,18 +1,14 @@
 <script lang="ts">
-  export let posts: PostMetadata[] = [];
+  export let uniqueTags: string[] = [];
 </script>
 
 <ul>
-  {#each posts as post}
-    {#if post.tags}
-      {#each post.tags as tag}
-        <li>
-          <a href="/blog/tags/{tag}">
-            {tag}
-          </a>
-        </li>
-      {/each}
-    {/if}
+  {#each uniqueTags as tag}
+    <li>
+      <a href="/blog/tags/{tag}">
+        {tag}
+      </a>
+    </li>
   {/each}
 </ul>
 
@@ -20,9 +16,8 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 2rem;
     font-size: 1.2rem;
-    place-content: space-evenly;
     padding: 0;
     li {
       list-style: none;
