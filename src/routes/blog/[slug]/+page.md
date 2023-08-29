@@ -7,11 +7,15 @@
   <meta name={data.description} />
 </svelte:head>
 
+<article class="blog">
+
 # {data.title}
 
 <p class="published">Published: {data.date}</p>
 
 <svelte:component this={data.content} />
+
+</article>
 
 <style lang="scss">
 	.published {

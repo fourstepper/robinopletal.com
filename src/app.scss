@@ -53,8 +53,7 @@ a {
   }
 }
 
-// TODO: we should move this to a special "blog" layout
-:where(h2, h3, h4, h5, h6) {
+.blog :where(h2, h3, h4, h5, h6) {
   .icon-link {
     position: relative;
 
