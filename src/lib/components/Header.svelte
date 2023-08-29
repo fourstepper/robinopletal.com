@@ -24,8 +24,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
     column-gap: 4rem;
+		row-gap: 0.5rem;
   }
   .heading {
     color: getColor(purple);
@@ -41,7 +42,7 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0;
     margin-left: auto;
     margin-right: auto;

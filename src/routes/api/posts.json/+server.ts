@@ -1,4 +1,3 @@
-// import fetchPosts from '$lib/assets/js/fetchPosts'
 import fetchPosts from "$lib/helpers/fetchPosts";
 import { json } from "@sveltejs/kit";
 

@@ -17,7 +17,7 @@ export const navItems = [
     route: "/about",
   },
   {
-	  title: "What else?",
-	  route: "/what-else",
+    title: "What else?",
+    route: "/what-else",
   },
 ];

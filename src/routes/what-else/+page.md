@@ -1,6 +1,6 @@
 # Not ready yet!
 
-This page will work as a collection of URLs either on this site or on the internet.
+This page will work as a collection of (hopefully _cool_ ) URLs either on this site or on the internet.
 
 ### FAQ
 

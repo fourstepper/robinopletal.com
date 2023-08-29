@@ -28,6 +28,8 @@ const fetchPosts = async ({ offset = 0, limit = 10 } = {}) => {
 		title: post.title,
 		slug: post.slug,
 		date: post.date,
+		description: post.description,
+		tags: post.tags,
 	}))
 
 	return {

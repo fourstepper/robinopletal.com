@@ -5,12 +5,31 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="/blog/{post.slug}">
-        <h2>
-          {post.title}
-        </h2>
-      </a>
-      <div>
+      <div class="hover-links">
+        <a href="/blog/{post.slug}">
+          <h2>
+            {post.title}
+          </h2>
+        </a>
+      </div>
+      {#if post.description}
+        <div>
+          {post.description}
+        </div>
+      {/if}
+      {#if post.tags}
+        <div class="tags">
+          <span>Tags: </span>
+          <ul>
+            {#each post.tags as tag}
+              <li>
+                <a href="/blog/tags/{tag}">{tag}</a>
+              </li>
+            {/each}
+          </ul>
+        </div>
+      {/if}
+      <div class="date">
         {post.date}
       </div>
     </li>
@@ -18,24 +37,38 @@
 </ul>
 
 <style lang="scss">
+  .date {
+    font-size: 0.875rem;
+  }
+  .tags {
+    display: flex;
+    font-size: 0.875rem;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    a {
+      text-decoration: none;
+    }
+    ul {
+      display: flex;
+      column-gap: 0.5rem;
+      li {
+        background-color: getColor(red);
+        color: getColor(background);
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 2px;
+      }
+    }
+  }
   ul {
     padding: 0;
   }
   h2 {
     margin: 0;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-    text-decoration-color: getColor(yellow);
-    text-decoration-thickness: 0.15rem;
-    text-underline-offset: 0.25rem;
   }
   li {
     list-style-type: none;
