@@ -31,7 +31,7 @@
         text-decoration: none;
         padding: 10px;
         border-radius: 10px;
-        background-color: getColor(green);
+        background-color: getColor(purple);
         color: getColor(background);
       }
       a:hover {
