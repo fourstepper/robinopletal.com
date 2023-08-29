@@ -30,23 +30,13 @@
       width: 100%;
       opacity: 0.4;
       margin-bottom: 1rem;
-      color: getColor(blue);
+      color: getColor(green);
     }
     footer {
       display: flex;
       flex: 1;
       place-content: center;
       text-align: center;
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      a:hover {
-        text-decoration: underline;
-        text-decoration-color: getColor(green);
-        text-decoration-thickness: 2px;
-        text-underline-offset: 4px;
-      }
     }
   }
   .vertical-divider {

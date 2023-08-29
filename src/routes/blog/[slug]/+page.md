@@ -11,8 +11,6 @@
 
 <p class="published">Published: {data.date}</p>
 
-<hr />
-
 <svelte:component this={data.content} />
 
 <style lang="scss">
@@ -22,12 +20,5 @@
 	}
 	h1 {
 		margin-bottom: 0;
-	}
-	hr {
-      width: 100%;
-			opacity: 0.4;
-      margin-bottom: 1rem;
-			margin-top: 1rem;
-      color: getColor(green);
 	}
 </style>

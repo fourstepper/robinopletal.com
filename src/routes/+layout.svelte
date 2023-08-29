@@ -1,13 +1,18 @@
 <script lang="ts">
   import "@fontsource/open-sans";
   import "../app.scss";
+  import "prism-themes/themes/prism-one-dark.min.css";
 
+  import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <main class="wrapper">
-  <slot />
-  <Footer />
+  <div>
+    <Header />
+    <slot />
+    <Footer />
+  </div>
 </main>
 
 <style lang="scss">

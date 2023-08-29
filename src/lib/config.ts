@@ -17,7 +17,7 @@ export const navItems = [
     route: "/about",
   },
   {
-    title: "Contact",
-    route: "/contact",
+	  title: "What else?",
+	  route: "/what-else",
   },
 ];

@@ -29,4 +29,7 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
   }
+  li {
+    list-style-type: none;
+  }
 </style>

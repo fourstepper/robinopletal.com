@@ -9,3 +9,9 @@
     <PostsListItem {post} />
   {/each}
 </ul>
+
+<style lang="scss">
+  ul {
+    padding: 0;
+  }
+</style>
