@@ -6,15 +6,15 @@
   <a class="heading" href="/">
     <span>{siteTitle}</span>
   </a>
-  <div>
+  <menu>
     <ul>
       {#each navItems as item}
-        <a href={item.route}>
-          <li>{item.title}</li>
-        </a>
+        <li>
+          <a href={item.route}>{item.title}</a>
+        </li>
       {/each}
     </ul>
-  </div>
+  </menu>
 </nav>
 
 <hr />
@@ -31,6 +31,10 @@
     color: getColor(purple);
     font-size: 2rem;
     font-weight: bold;
+    margin: 0;
+  }
+  menu {
+    padding: 0;
     margin: 0;
   }
   ul {
