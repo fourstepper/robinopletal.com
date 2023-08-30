@@ -78,7 +78,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     a {
       text-decoration: none;
     }
@@ -89,8 +89,7 @@
         background-color: getColor(purple);
         color: getColor(background);
         margin: 0;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 0.1rem 0.5rem 0.1rem 0.5rem;
         border-radius: 5px;
       }
     }
