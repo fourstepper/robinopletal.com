@@ -13,10 +13,6 @@ export const navItems = [
     route: "/posts",
   },
   {
-    title: "About",
-    route: "/about",
-  },
-  {
     title: "Contact",
     route: "/contact",
   },
