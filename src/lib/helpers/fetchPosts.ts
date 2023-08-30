@@ -1,4 +1,4 @@
-const fetchPosts = async ({ offset = 0, limit = 10 } = {}) => {
+const fetchPosts = async ({ offset = 0 } = {}) => {
 
 	const posts = await Promise.all(
 		Object.entries(import.meta.glob('/src/lib/posts/*.md')).map(async ([path, resolver]) => {
@@ -20,9 +20,10 @@ const fetchPosts = async ({ offset = 0, limit = 10 } = {}) => {
 		sortedPosts = sortedPosts.slice(offset)
 	}
 
-	if (limit && limit < sortedPosts.length && limit != -1) {
-		sortedPosts = sortedPosts.slice(0, limit)
-	}
+	// if we want to paginate content...
+	// if (limit && limit < sortedPosts.length && limit != -1) {
+	// 	sortedPosts = sortedPosts.slice(0, limit)
+	// }
 
 	sortedPosts = sortedPosts.map(post => ({
 		title: post.title,
