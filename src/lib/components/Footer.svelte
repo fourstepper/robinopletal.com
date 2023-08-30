@@ -8,13 +8,13 @@
     <a href="/">Robin Opletal, 2023-{currentYear}</a>
     <div class="vertical-divider" />
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
-      >Licensed under CC-BY-4.0</a
+      >Content is CC-BY-4.0</a
     >
     <div class="vertical-divider" />
     <a
       class="link-hover"
       href="https://codeberg.org/fourstepper/robinopletal.com"
-      target="_blank">View source</a
+      target="_blank">Source code is MIT</a
     >
   </footer>
 </div>
@@ -53,6 +53,7 @@
     footer {
       flex-direction: column;
       align-items: center;
+      // accessibility score
       row-gap: 0.6rem;
     }
   }

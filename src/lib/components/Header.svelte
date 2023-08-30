@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 4rem;
-		row-gap: 0.5rem;
+    row-gap: 0.5rem;
   }
   .heading {
     color: getColor(purple);
@@ -40,13 +40,14 @@
   }
   ul {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 0;
     font-size: 1.2rem;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    gap: 1rem;
+    column-gap: 1rem;
     li {
       list-style-type: none;
     }
