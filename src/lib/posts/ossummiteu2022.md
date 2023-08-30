@@ -6,7 +6,7 @@ tags: ["conferences", "heureka.group"]
 
 ## Introduction
 
-![==Open-Source Summit at the Convention Centre Dublin==](../../images/ossummiteu2022/ossummit-convention-center.jpeg)
+![Open-Source Summit at the Convention Centre Dublin](../../images/ossummiteu2022/ossummit-convention-center.jpeg)
 
 This year, I had the chance to visit the Open-Source Summit EU in Dublin and I decided to write a short post highlighting the things that were most interesting to me and hopefully to you, too.
 
@@ -36,7 +36,7 @@ I've never really had much exposure to using tools such as `lsof`, `strace`, and
 
 Wolfgang from Mercedes-Benz Tech Innovation came with a talk about how they deal with the following issue:
 
-![==Dependency - the modern infrastructure problem (xkcd)==](https://imgs.xkcd.com/comics/dependency.png)
+![Dependency - the modern infrastructure problem (xkcd)](https://imgs.xkcd.com/comics/dependency.png)
 
 In the talk, he went over the similarities of the OpenSSL project and the Log4j library that caused two of the most infamous bugs in recent history - [The Heartbleed Bug](https://heartbleed.com/) and the [Log4Shell vulnerability](https://en.wikipedia.org/wiki/Log4Shell), highlighting the fact that in both cases the maintainers of these projects maintained them in their free time, while having a full-time job "on the side".
 
@@ -60,7 +60,7 @@ An interesting talk about the challenges of edge infrastructure, such as day 2 o
 
 Here is an overview of the `starlingx` infrastructure stack:
 
-![==Image of the StarlingX Architecture==](../../images/ossummiteu2022/starlingx.jpg)
+![StarlingX Architecture](../../images/ossummiteu2022/starlingx.jpg)
 
 If you are into edge, IoT, other similar workloads, make sure to [check it out](https://www.starlingx.io/)!
 
@@ -70,7 +70,7 @@ If you are into edge, IoT, other similar workloads, make sure to [check it out](
 
 ### Linus Torvalds in Conversation with Dirk Hohndel, Chief Open Source Officer, Cardano Foundation
 
-![==Image of Linus Torvalds talking to Dirk Hohndel==](../../images/ossummiteu2022/linus-with-dirk.jpeg)
+![Linus Torvalds talking to Dirk Hohndel](../../images/ossummiteu2022/linus-with-dirk.jpeg)
 
 An interesting but rather short conversation between Linus and Dirk Hohndel from the Cardano Foundation.
 
@@ -108,7 +108,7 @@ Unfortunately, I couldn't attend any talks on Friday because of my flights.
 
 Instead, here is a picture I took of the Liffey River in Dublin!
 
-![==Image of the view on the Liffey river==](../../images/ossummiteu2022/dublin-riverview.jpg)
+![View on the Liffey river](../../images/ossummiteu2022/dublin-riverview.jpg)
 
 ## Thank you!
 

@@ -1,6 +1,5 @@
 ---
 title: "Workplace ergonomics"
-date: 2021-09-25T20:12:21+02:00
 date: 25/09/2021
 tags: ["ergonomics", "keyboards", "hardware"]
 ---
