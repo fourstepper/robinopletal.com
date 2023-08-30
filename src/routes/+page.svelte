@@ -34,7 +34,10 @@
   <p>
     Some technologies I am currently excited about include
     <a title="Golang website" href="https://go.dev">Go</a>,
-    <a title="Svelte website" href="https://svelte.dev">Svelte(kit)</a>,
+    <a title="Svelte website" href="https://svelte.dev">Svelte</a><a
+      title="SvelteKit website"
+      href="https://kit.svelte.dev">(Kit)</a
+    >,
     <span class="lower">(which runs the website you are looking at)</span>,
     <a title="Rust language website" href="https://www.rust-lang.org/">Rust</a>
     and lately,
@@ -44,6 +47,11 @@
       >unfortunately</a
     >,
     <a title="OpenTF website" href="https://opentf.org/">OpenTF</a> as well.
+  </p>
+  <p>
+    I currently work as an infrastructure Engineer at <a
+      href="https://heureka.group/cz-en">Heureka Group</a
+    >.
   </p>
   <h2>How I relax 🏃 📖 💻</h2>
   <h4>Running et al.</h4>
