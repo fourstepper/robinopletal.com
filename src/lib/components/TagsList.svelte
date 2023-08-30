@@ -29,10 +29,6 @@
         background-color: getColor(purple);
         color: getColor(background);
       }
-      a:hover {
-        background-color: getColor(yellow);
-        color: getColor(foreground);
-      }
     }
   }
   @media screen and (max-width: 640px) {

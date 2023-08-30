@@ -66,7 +66,7 @@
     border: solid;
     border-width: 0.1rem;
     border-color: getColor(blue);
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 1rem;
   }
   .tags {
@@ -93,10 +93,6 @@
         margin: 0;
         padding: 0.1rem 0.5rem 0.1rem 0.5rem;
         border-radius: 5px;
-      }
-      li:hover {
-        background-color: getColor(yellow);
-        color: getColor(foreground);
       }
     }
   }
