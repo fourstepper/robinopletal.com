@@ -6,7 +6,7 @@
 
 <h1>Tag: <span>{data.params.tag}</span></h1>
 
-<a href="/blog/tags">All tags ></a>
+<a href="/posts/tags">All tags ></a>
 
 <PostsList posts={data.filteredPosts} />
 

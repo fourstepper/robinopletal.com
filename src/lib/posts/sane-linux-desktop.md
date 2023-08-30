@@ -72,7 +72,7 @@ Most people nowadays use their browser to save and synchronize their passwords b
 
 I would however suggest using a dedicated application dedicated only to your passwords.
 
-I wrote a whole [blog post on password managers](https://robinopletal.com/posts/password-managers/), however today I will, without any affiliation and as a paying customer, recommend [Bitwarden](https://bitwarden.com/).
+I wrote a whole [blog post on password managers](/posts/password-managers/), however today I will, without any affiliation and as a paying customer, recommend [Bitwarden](https://bitwarden.com/).
 
 - it's intuitive and easy to set up across all your devices
 - it's open source and security audited

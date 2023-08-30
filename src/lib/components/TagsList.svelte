@@ -5,7 +5,7 @@
 <ul>
   {#each uniqueTags as tag}
     <li>
-      <a href="/blog/tags/{tag}">
+      <a href="/posts/tags/{tag}">
         {tag}
       </a>
     </li>

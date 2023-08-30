@@ -40,9 +40,9 @@ const render = (posts: any) => `<?xml version="1.0" encoding="UTF-8" ?>
 ${posts
   .map(
     (post: any) => `<item>
-<guid isPermaLink="true">https://${siteURL}/blog/${post.slug}</guid>
+<guid isPermaLink="true">https://${siteURL}/posts/${post.slug}</guid>
 <title>${post.title}</title>
-<link>https://${siteURL}/blog/${post.slug}</link>
+<link>https://${siteURL}/posts/${post.slug}</link>
 <description>${post.description}</description>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
 </item>`,

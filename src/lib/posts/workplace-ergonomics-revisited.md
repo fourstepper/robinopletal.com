@@ -6,7 +6,7 @@ tags: ["ergonomics", "keyboards", "hardware"]
 
 ## Revisited
 
-In the [first article](/blog/workplace-ergonomics) of mine on ergonomics, I have written about some steps I have taken in the past to help me work at a computer more comfortably as a software (or rather, an infrastructure) engineer full-time.
+In the [first article](/posts/workplace-ergonomics) of mine on ergonomics, I have written about some steps I have taken in the past to help me work at a computer more comfortably as a software (or rather, an infrastructure) engineer full-time.
 
 We have gone through various topics, such as what table and chair that I am using, which mice I have tried and so on. Most of the gear that I have mentioned in that article I still do use, although I have added a few more pieces to my daily arsenal.
 

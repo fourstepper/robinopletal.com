@@ -5,7 +5,7 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="/blog/{post.slug}">
+      <a href="/posts/{post.slug}">
         <div class="bordered-list">
           <div class="date">
             {post.date}
@@ -24,7 +24,7 @@
               <ul>
                 {#each post.tags as tag}
                   <li>
-                    <a href="/blog/tags/{tag}">{tag}</a>
+                    <a href="/posts/tags/{tag}">{tag}</a>
                   </li>
                 {/each}
               </ul>

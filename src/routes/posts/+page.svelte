@@ -14,7 +14,7 @@
 
 <h1>Blog</h1>
 
-<a href="/blog/tags">All tags ></a>
+<a href="/posts/tags">All tags ></a>
 
 <PostsList posts={data.posts} />
 

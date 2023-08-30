@@ -69,7 +69,7 @@ Also, make sure to read all the way to the bottom of this post for a few more, g
   - If I wanted to make an e-commerce site today, I would probably try to offload as much as possible to Stripe (like Checkout, tax calculations etc.) and create the rest from scratch with something like NextJS on Vercel
   - It's PHP all the way and doesn't run with any other database than MariaDB/MySQL :(
 - **VPN (for accessing self-hosted at home)**
-  - this is a bit controversial even for me, but I decided to get rid of my pfSense router with a Wireguard server and switched to Tailscale to access the few self-hosted services I run at home - you can read a bit more about my the why in my semi-recent ["Tailscale - the magic mesh overlay network"](https://robinopletal.com/posts/tailscale/) post
+  - this is a bit controversial even for me, but I decided to get rid of my pfSense router with a Wireguard server and switched to Tailscale to access the few self-hosted services I run at home - you can read a bit more about my the why in my semi-recent ["Tailscale - the magic mesh overlay network"](/posts/tailscale/) post
 
 ### Software I never even started self-hosting and why
 
