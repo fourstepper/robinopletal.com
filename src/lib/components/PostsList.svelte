@@ -72,9 +72,10 @@
   .tags {
     align-content: center;
     display: flex;
+    flex-wrap: wrap;
     font-size: 0.875rem;
     flex-direction: row;
-    column-gap: 0.5rem;
+    gap: 0.5rem;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -84,7 +85,8 @@
     }
     ul {
       display: flex;
-      column-gap: 0.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
       li {
         background-color: getColor(purple);
         color: getColor(background);
