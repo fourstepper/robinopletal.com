@@ -21,7 +21,7 @@
       margin-bottom: 0;
     }
     h2 {
-      color: getColor(red);
+      color: getColor(green);
       margin-top: 0;
     }
   }
