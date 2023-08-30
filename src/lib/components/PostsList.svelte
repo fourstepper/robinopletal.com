@@ -94,6 +94,10 @@
         padding: 0.1rem 0.5rem 0.1rem 0.5rem;
         border-radius: 5px;
       }
+      li:hover {
+        background-color: getColor(yellow);
+        color: getColor(foreground);
+      }
     }
   }
 </style>
