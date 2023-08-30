@@ -5,8 +5,8 @@
 <ul>
   {#each posts as post}
     <li>
-      <div>
-        <a href="/blog/{post.slug}">
+      <a href="/blog/{post.slug}">
+        <div class="bordered-list">
           <div class="date">
             {post.date}
           </div>
@@ -30,8 +30,8 @@
               </ul>
             </div>
           {/if}
-        </a>
-      </div>
+        </div>
+      </a>
     </li>
   {/each}
 </ul>
@@ -62,6 +62,13 @@
   .date {
     font-size: 0.875rem;
   }
+  .bordered-list {
+    border: solid;
+    border-width: 0.1rem;
+    border-color: getColor(blue);
+    border-radius: 10px;
+    padding: 1rem;
+  }
   .tags {
     align-content: center;
     display: flex;
@@ -71,6 +78,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    margin-top: 0.5rem;
     a {
       text-decoration: none;
     }

@@ -22,14 +22,14 @@ If you would go the standard route, you would just `cd /foo/bar` and quickly whi
 
 I would advise you to instead:
 
-```
+```bash
 cd /foo/bar
 rm -rf ../bar/*
 ```
 
 or
 
-```
+```bash
 cd foo
 rm -rf bar/*
 ```

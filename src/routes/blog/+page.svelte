@@ -22,7 +22,4 @@
   h1 {
     margin-bottom: 0;
   }
-  a {
-    // font-size: 0.875rem;
-  }
 </style>

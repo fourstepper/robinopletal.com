@@ -78,11 +78,11 @@ Anyway... here come the results
 
 Visualization (24 hours):
 
-![](../../images/quick-grafana-variable-template-tips/24_hours_cost.png)
+![24 hour total cost visualization](../../images/quick-grafana-variable-template-tips/24_hours_cost.png)
 
 Visualization (12 hours):
 
-![](../../images/quick-grafana-variable-template-tips/12_hours_cost.png)
+![12 hour total cost visualization](../../images/quick-grafana-variable-template-tips/12_hours_cost.png)
 
 And there we have it!
 
@@ -92,4 +92,8 @@ Thanks for reading and until next time!
 
 ---
 
-The actual cost data above has been tampered with by multiplying the original data with a random number to keep the original data private. I sure hope your Kubernetes clusters don't cost this much money for the selected time periods.
+_P.S._
+
+The actual cost data above has been tampered with by multiplying the original data with a random number to keep the original data private.
+
+I sure hope your Kubernetes clusters don't cost this much money for the selected time periods.
