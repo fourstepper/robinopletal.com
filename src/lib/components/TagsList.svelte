@@ -16,7 +16,8 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    column-gap: 1rem;
+    row-gap: 2rem;
     font-size: 1.2rem;
     padding: 0;
     li {
