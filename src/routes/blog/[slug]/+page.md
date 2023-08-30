@@ -1,9 +1,11 @@
 <script lang="ts">
   export let data: PostMetadata;
+  import { siteTitle } from "$lib/config";
 </script>
 
 <svelte:head>
 
+  <title>{data.title} | {siteTitle}</title>
   <meta name={data.description} />
 </svelte:head>
 

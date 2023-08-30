@@ -94,7 +94,7 @@ Each device I added magically got a unique IP address assigned to it from the Sh
 
 I am now 200 kilometers away from my home, pinging my NAS behind a CGNAT:
 
-```shell
+```bash
 $ ping microserver
 PING microserver.tailddae8.ts.net (100.100.180.43): 56 data bytes
 64 bytes from 100.100.180.43: icmp_seq=1 ttl=64 time=32.770 ms
@@ -107,14 +107,14 @@ One of the beauties of the above setup is that as long as a device is registered
 
 Well, it allows me to set up some public DNS, for example for my PhotoPrism.
 
-```shell
+```bash
 $ dig photos.home.robinopletal.com +short
 100.100.180.43
 ```
 
 Courtesy of Traefik, I could then reach my service as I was used to, comfortably over HTTPS:
 
-```shell
+```bash
 $ curl -I https://photos.home.robinopletal.com
 HTTP/2 200
 content-security-policy: frame-ancestors 'none';

@@ -1,5 +1,6 @@
 <script>
   import PostsList from "$lib/components/PostsList.svelte";
+  import { siteTitle } from "$lib/config";
 
   export let data;
 </script>
@@ -7,8 +8,8 @@
 <!-- TODO: edit the meta for SEO -->
 
 <svelte:head>
-  <title>Blog</title>
-  <meta data-key="description" name="description" content="Testing" />
+  <title>Blog | {siteTitle}</title>
+  <meta name="Home of my blog posts" />
 </svelte:head>
 
 <h1>Blog</h1>
@@ -22,6 +23,6 @@
     margin-bottom: 0;
   }
   a {
-    font-size: 1.1rem;
+    // font-size: 0.875rem;
   }
 </style>
