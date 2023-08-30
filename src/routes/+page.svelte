@@ -7,14 +7,22 @@
   <meta name={siteDescription} />
 </svelte:head>
 
-<div class="homepage">
-  <h1>Welcome to my website!</h1>
+<div>
+  <div class="intro">
+    <h1>Hey there, I am Robin!</h1>
+    <h2>Welcome to my website</h2>
+  </div>
   <p>The homepage is still in the making...</p>
 </div>
 
 <style lang="scss">
-  .homepage {
-    place-content: center;
-    text-align: center;
+  .intro {
+    h1 {
+      margin-bottom: 0;
+    }
+    h2 {
+      color: getColor(red);
+      margin-top: 0;
+    }
   }
 </style>
