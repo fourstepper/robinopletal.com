@@ -55,11 +55,11 @@ In essence, it's a mesh, overlay network between (ideally) all of your devices.
 
 It utilizes a client part implemented on top of `wireguard-go` and a SaaS service.
 
-The SaaS service is, in simple terms, composed of an authentication layer outsourced to popular OAuth2, OIDC and SAML providers (Github, Google etc.), "Tailscale Coordination Server", through which public key and metadata exchanges happen
+The SaaS service is, in simple terms, composed of an authentication layer outsourced to popular OAuth2, OIDC and SAML providers (Github, Google etc.), "Tailscale Coordination Server", through which public key and metadata exchanges happen...
 
 ![==Tailscale - Client to Coordination Server==](../../images/tailscale/coordination.png)
 
-as well as "Encrypted TCP Relays" - so called DERP's (Designated Encrypted Relays for Packets), that can serve in cases when direct peer-to-peer connection over the public internet or LAN aren't feasible (such as when both devices are on separate LANs, without a routable public IP address). This let's you connect seamingly unconnectable devices, seamlessly.
+...as well as "Encrypted TCP Relays" - so called DERP's (Designated Encrypted Relays for Packets), that can serve in cases when direct peer-to-peer connection over the public internet or LAN aren't feasible (such as when both devices are on separate LANs, without a routable public IP address). This let's you connect seamingly unconnectable devices, seamlessly.
 
 ![==Tailscale - DERP==](../../images/tailscale/derp.png)
 
