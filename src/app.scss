@@ -37,6 +37,11 @@ a {
     color: inherit;
 }
 
+img {
+    max-height:100%;
+    max-width:100%;
+}
+
 .hover-links {
   a {
     text-decoration: none;
@@ -64,7 +69,7 @@ a {
       line-height: 1.3;
       top: 0;
       opacity: 0;
-      color: getColor(foreground);
+      color: getColor(green);
       text-decoration: underline;
     }
   }
