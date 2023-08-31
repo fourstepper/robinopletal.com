@@ -8,3 +8,7 @@ interface PostMetadata {
   content: ConstructorOfATypedSvelteComponent;
   tags?: string[];
 }
+
+interface LayoutData {
+  pathname: string;
+}
