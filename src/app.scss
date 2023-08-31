@@ -47,20 +47,16 @@ img {
 
 .hover-links {
   a {
-    text-decoration: none;
-    color: inherit;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-    text-decoration-color: getColor(yellow);
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms ease-in-out;
     text-decoration-thickness: 0.15rem;
     text-underline-offset: 0.25rem;
   }
-  a:active {
+  a:visited {
       text-decoration: none;
+  }
+  a:hover {
+    text-decoration-color: getColor(yellow);
   }
 }
 
