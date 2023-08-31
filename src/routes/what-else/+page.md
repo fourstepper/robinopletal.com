@@ -1,3 +1,13 @@
+<script lang="ts">
+  import { siteTitle } from "$lib/config";
+</script>
+
+<svelte:head>
+
+  <title>What else? | {siteTitle}</title>
+  <meta name="description" content="Page with various links to content on this site and elsewhere on the internet" />
+</svelte:head>
+
 # What else?
 
 ... is not ready yet 😢

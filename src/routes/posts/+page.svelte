@@ -5,8 +5,6 @@
   export let data;
 </script>
 
-<!-- TODO: edit the meta for SEO -->
-
 <svelte:head>
   <title>Blog | {siteTitle}</title>
   <meta name="description" content="Home of my blog posts" />
