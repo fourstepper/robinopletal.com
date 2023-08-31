@@ -4,28 +4,15 @@
 
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
-
-  import { fly } from "svelte/transition";
-  import { cubicIn, cubicOut } from "svelte/easing";
-  export let data: LayoutData;
-
-  const duration = 150;
-  const delay = duration + 50;
-  const y = 10;
-
-  const transitionIn = { easing: cubicOut, y, duration, delay };
-  const transitionOut = { easing: cubicIn, y: -y, duration };
 </script>
 
-{#key data.pathname}
-  <main class="wrapper" in:fly={transitionIn} out:fly={transitionOut}>
-    <div>
-      <Header />
-      <slot />
-      <Footer />
-    </div>
-  </main>
-{/key}
+<main class="wrapper">
+  <div>
+    <Header />
+    <slot />
+    <Footer />
+  </div>
+</main>
 
 <style lang="scss">
   .wrapper {
