@@ -1,5 +1,3 @@
-// TODO: optimize according to https://grafana.com/blog/news.xml
-
 import { siteTitle, siteDescription, siteURL, siteLink } from "$lib/config";
 
 export const prerender = true;

@@ -78,7 +78,6 @@
   <p>If you think we should talk, feel free to reach out to me!</p>
   <p>
     I'm available via
-    <!-- TODO: instead of mailto, let's build a contact form in the future -->
     <a title="Send me an e-mail" href="mailto:me@robinopletal.com">E-mail</a>,
     on
     <a

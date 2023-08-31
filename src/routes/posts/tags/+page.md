@@ -5,8 +5,6 @@
   export let data;
 </script>
 
-<!-- TODO: edit the meta for SEO -->
-
 <svelte:head>
 
   <title>Tags | {siteTitle}</title>

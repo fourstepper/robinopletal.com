@@ -1,7 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
-# TODO: allow this before going live on robinopletal.com
 User-agent: *
-Disallow: /
+Disallow: /api
 
 # Disallow ChatGPT bot from scraping our website
 User-agent: GPTBot

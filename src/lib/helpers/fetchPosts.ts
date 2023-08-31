@@ -12,11 +12,6 @@ const fetchPosts = async ({ offset = 0 } = {}) => {
 
   let sortedPosts = posts.sort((a, b) => +new Date(b.date) - +new Date(a.date));
 
-  // TODO: add categories (or tags) later on
-  // if (category) {
-  //     sortedPosts = sortedPosts.filter(post => post.categories.includes(category))
-  // }
-
   if (offset) {
     sortedPosts = sortedPosts.slice(offset);
   }
