@@ -2,7 +2,7 @@
   import { siteTitle, navItems } from "$lib/config";
 </script>
 
-<nav class="header hover-links">
+<nav class="header">
   <a class="heading" href="/">
     <span>{siteTitle}</span>
   </a>
@@ -20,6 +20,9 @@
 <hr />
 
 <style lang="scss">
+  a {
+    text-decoration: none;
+  }
   .header {
     display: flex;
     flex-wrap: wrap;
