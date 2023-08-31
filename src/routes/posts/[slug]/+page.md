@@ -21,7 +21,6 @@
 
 <style lang="scss">
 	.published {
-		font-size: 0.8rem;
 		margin-top: 0;
 	}
 	h1 {
