@@ -10,7 +10,7 @@
 <div>
   <div>
     <h1>Hey there, I am Robin! 🌊</h1>
-    <p class="intro">I am a human being based in Prague, Czech Republic</p>
+    <p class="intro">Welcome to my website</p>
   </div>
   <h2>What I do 🛠️</h2>
   <p>
