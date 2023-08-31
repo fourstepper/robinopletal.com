@@ -17,7 +17,7 @@ steps:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
-      - vercel --token $${VERCEL} deploy
+      - vercel --token $${VERCEL} deploy | tee url.txt
     secrets: [VERCEL]
 
   deploy-production:
