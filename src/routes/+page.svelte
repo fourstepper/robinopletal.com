@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>{siteTitle}</title>
-  <meta name={siteDescription} />
+  <meta name="description" content={siteDescription} />
 </svelte:head>
 
 <div>

@@ -8,8 +8,9 @@
 <!-- TODO: edit the meta for SEO -->
 
 <svelte:head>
+
   <title>Tags | {siteTitle}</title>
-  <meta name="Home of my blog post tags" />
+  <meta name="description" content="Home of my blog post tags" />
 </svelte:head>
 
 # Tags

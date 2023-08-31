@@ -9,7 +9,7 @@
 
 <svelte:head>
   <title>Blog | {siteTitle}</title>
-  <meta name="Home of my blog posts" />
+  <meta name="description" content="Home of my blog posts" />
 </svelte:head>
 
 <h1>Blog</h1>
