@@ -2,7 +2,7 @@
 title: "Don't self-host everything"
 date: 2023-08-01T20:29:29+01:00
 tags: ["open-source", "free software", "self-hosting"]
-description: "Self-hosting Free, open-source software isn't just sunshine and roses."
+description: "Self-hosting Free, open-source software isn't just sunshine and roses. Not for you, or the developers of the software."
 ---
 
 Self-hosting Free, open-source software isn't just sunshine and roses.

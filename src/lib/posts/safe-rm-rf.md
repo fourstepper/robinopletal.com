@@ -2,6 +2,7 @@
 title: "Safe rm -rf *"
 date: 2022-03-16T20:12:21+02:00
 tags: ["tips", "software", "cli"]
+description: "Like using the rm -rf command but deleted some stuff on accident based on shell history before? I think I might have found a way to avoid that."
 ---
 
 Every once in a while, you have to delete all files and folders recursively.

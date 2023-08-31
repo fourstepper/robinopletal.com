@@ -2,6 +2,7 @@
 title: "Dealing with a Google Kubernetes Engine Cluster Outage"
 tags: ["postmortems", "kubernetes", "heureka.group"]
 date: 2022-03-31T09:25:21+02:00
+description: 'Also known as: "How we managed to badly misconfigure OPA Gatekeeper"'
 ---
 
 This post was originally posted to the [heurekadevs.cz blog](https://www.heurekadevs.com/dealing-with-a-google-kubernetes-engine-cluster-outage).

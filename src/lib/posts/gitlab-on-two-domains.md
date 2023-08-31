@@ -2,6 +2,7 @@
 title: "Running Gitlab simultaneously on two domains"
 date: 2022-11-24T16:11:21+02:00
 tags: ["tips", "git", "gitlab", "software"]
+description: "Need to transition your Gitlab instance to another domain while keeping the former domain alive? Read on!"
 ---
 
 ## The problem

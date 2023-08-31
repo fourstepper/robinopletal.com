@@ -2,11 +2,8 @@
 title: "Sane Linux Desktop"
 date: 2023-06-20T20:29:29+01:00
 tags: ["linux", "desktop"]
+description: Let's look at the Linux desktop from a pragmatic, daily-use point of view.
 ---
-
-Let's look at the Linux desktop from a pragmatic, daily-use point of view
-
-<!--more-->
 
 ## Preface
 
