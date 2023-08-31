@@ -33,7 +33,7 @@
   </p>
   <p>
     Some technologies I am currently excited about include
-    <a title="Golang website" href="https://go.dev">Go</a>,
+    <a title="Golang website" href="https://go.dev">Golang</a>,
     <a title="Svelte website" href="https://svelte.dev">Svelte</a><a
       title="SvelteKit website"
       href="https://kit.svelte.dev">(Kit)</a
@@ -54,7 +54,7 @@
     >.
   </p>
   <h2>How I relax 🏃 📖 💻</h2>
-  <h4>Running et al.</h4>
+  <h3>Running et al.</h3>
   <p>
     I have been getting back into excercising. I enjoy running / swimming in the
     morning and longer walks in the evening. I also recreationally <span
@@ -68,7 +68,7 @@
       href="https://mozart.utmb.world/">Mozart 100 by UTMB</a
     > event.
   </p>
-  <h4>Other activities</h4>
+  <h3>Other activities</h3>
   <p>
     As per usual, I like spending time with my loved ones, reading books,
     watching TV shows, eating good food and drinking great coffee. Nothing
