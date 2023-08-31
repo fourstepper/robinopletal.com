@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "@fontsource/open-sans";
   import "../app.scss";
   import "prism-themes/themes/prism-a11y-dark.min.css";
 
