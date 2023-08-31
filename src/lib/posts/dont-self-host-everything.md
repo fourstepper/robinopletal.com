@@ -1,6 +1,6 @@
 ---
 title: "Don't self-host everything"
-date: 01/08/2023
+date: 2023-08-01T20:29:29+01:00
 tags: ["open-source", "free software", "self-hosting"]
 description: "Self-hosting Free, open-source software isn't just sunshine and roses."
 ---

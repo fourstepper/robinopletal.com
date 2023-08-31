@@ -1,6 +1,6 @@
 ---
 title: "Quick Grafana variable template tips"
-date: 25/06/2023
+date: 2023-06-25T17:13:29+01:00
 tags: ["grafana", "monitoring"]
 ---
 

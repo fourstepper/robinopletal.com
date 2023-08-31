@@ -1,6 +1,6 @@
 ---
 title: "Tailscale - the magic mesh overlay network"
-date: 03/11/2022
+date: 2022-11-03T20:12:21+02:00
 description: "Tailscale, it's pros, cons and how it has managed to save me time and effort."
 tags: ["reviews", "VPNs", "security", "software"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Sane Linux Desktop"
-date: 20/06/2023
+date: 2023-06-20T20:29:29+01:00
 tags: ["linux", "desktop"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Password managers - Bitwarden vs pass vs KeepassXC"
-date: 26/12/2020
+date: 2020-12-26T17:29:29+01:00
 tags: ["reviews", "password-managers", "security"]
 ---
 

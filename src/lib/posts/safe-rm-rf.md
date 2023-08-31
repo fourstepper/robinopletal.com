@@ -1,6 +1,6 @@
 ---
 title: "Safe rm -rf *"
-date: 16/03/2022
+date: 2022-03-16T20:12:21+02:00
 tags: ["tips", "software", "cli"]
 ---
 

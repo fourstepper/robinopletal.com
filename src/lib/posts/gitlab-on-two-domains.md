@@ -1,6 +1,6 @@
 ---
 title: "Running Gitlab simultaneously on two domains"
-date: 24/09/2022
+date: 2022-11-24T16:11:21+02:00
 tags: ["tips", "git", "gitlab", "software"]
 ---
 
