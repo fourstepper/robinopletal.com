@@ -13,19 +13,11 @@ steps:
       - vercel --token $${VERCEL} link -p sveltekit-robinopletal --yes
     secrets: [VERCEL]
 
-  build:
-    image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
-    pull: true
-    commands:
-      - vercel --token $${VERCEL} pull
-      - vercel build
-    secrets: [VERCEL]
-
   deploy-preview:
     image: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
     pull: true
     commands:
-      - vercel --token $${VERCEL} deploy --prebuilt | tee url.txt
+      - vercel --token $${VERCEL} deploy
     secrets: [VERCEL]
 
   deploy-production:
