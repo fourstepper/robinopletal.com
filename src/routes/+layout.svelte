@@ -9,9 +9,9 @@
   import { cubicOut } from "svelte/easing";
   export let data: LayoutData;
 
-  const duration = 300;
+  const duration = 150;
   const delay = 50;
-  const y = 15;
+  const y = 10;
 
   const transitionIn = { easing: cubicOut, y, duration, delay };
 </script>
