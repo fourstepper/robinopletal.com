@@ -8,7 +8,8 @@
 <svelte:head>
 
   <title>Tags | {siteTitle}</title>
-  <meta name="description" content="Home of my blog post tags" />
+  <meta property="og:title" content="Tags | {siteTitle}" />
+  <meta name="twitter:title" content="Tags | {siteTitle}" />
 </svelte:head>
 
 # Tags

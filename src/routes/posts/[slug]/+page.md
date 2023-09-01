@@ -5,8 +5,9 @@
 
 <svelte:head>
 
-  <title>{data.title} | {siteTitle}</title>
-  <meta name="description" content={data.description} />
+  <title>{data.title}</title>
+  <meta property="og:title" content="{data.title}" />
+  <meta name="twitter:title" content="{data.title}" />
 </svelte:head>
 
 <article class="blog">
