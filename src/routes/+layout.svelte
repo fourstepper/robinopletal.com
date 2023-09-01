@@ -15,6 +15,8 @@
   const y = 10;
 
   const transitionIn = { easing: cubicOut, y, duration, delay };
+
+  import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
 </script>
 
 <svelte:head>
