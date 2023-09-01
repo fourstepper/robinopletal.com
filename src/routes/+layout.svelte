@@ -1,6 +1,7 @@
 <script lang="ts">
   import "../app.scss";
   import "prism-themes/themes/prism-a11y-dark.min.css";
+  import { siteTitle, siteDescription, siteURL, siteLink } from "$lib/config";
 
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
@@ -35,6 +36,19 @@
     href="/favicon/favicon-16x16.png"
   />
   <link rel="manifest" href="/favicon/site.webmanifest" />
+
+  <meta property="og:url" content={siteLink} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={siteTitle} />
+  <meta property="og:description" content={siteDescription} />
+  <meta property="og:image" content="${siteLink}/opengraph/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content={siteURL} />
+  <meta property="twitter:url" content={siteLink} />
+  <meta name="twitter:title" content={siteTitle} />
+  <meta name="twitter:description" content={siteDescription} />
+  <meta name="twitter:image" content="${siteLink}/opengraph/og-image.png" />
 </svelte:head>
 
 <main class="wrapper">
