@@ -6,6 +6,7 @@
   <meta property="og:image" content="{siteLink}/opengraph/og-image-blog.png" />
   <meta name="twitter:image" content="{siteLink}/opengraph/og-image-blog.png" />
 
+	<meta name="description" content="Robin Opletal's blog">
 	<meta property="og:description" content="Robin Opletal's blog" />
 	<meta name="twitter:description" content="Robin Opletal's blog" />
 </svelte:head>

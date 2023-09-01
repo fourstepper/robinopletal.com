@@ -6,9 +6,9 @@
 </script>
 
 <svelte:head>
-  <title>Tag: {data.params.tag}</title>
-  <meta property="og:title" content="{data.params.tag}" />
-  <meta name="twitter:title" content="{data.params.tag}" />
+  <title>Tag: {data.params.tag} | Blog</title>
+  <meta property="og:title" content="Tag: {data.params.tag} | Blog" />
+  <meta name="twitter:title" content="Tag: {data.params.tag} | Blog" />
 </svelte:head>
 
 <h1>Tag: <span>{data.params.tag}</span></h1>
