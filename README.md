@@ -1,6 +1,6 @@
 # robinopletal.com
 
-[![status-badge](https://ci.codeberg.org/api/badges/12484/status.svg)](https://ci.codeberg.org/repos/12484)
+[![status-badge](https://ci.codeberg.org/api/badges/12568/status.svg)](https://ci.codeberg.org/repos/12568)
 
 This repository is a SvelteKit project that runs [my website](https://robinopletal.com).
 
