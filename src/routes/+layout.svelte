@@ -15,9 +15,12 @@
   const y = 10;
 
   const transitionIn = { easing: cubicOut, y, duration, delay };
+
+	import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
 </script>
 
 <svelte:head>
+	<script async src="https://ackee.robinopletal.com/tracker.js" data-ackee-server="https://ackee.robinopletal.com" data-ackee-domain-id="a03b68e2-24ee-4ddb-a806-e4aced62868a"></script>
   <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -54,6 +57,8 @@
     <meta name="twitter:image" content="{siteLink}/opengraph/og-image.png" />
   {/if}
 </svelte:head>
+
+<PlausibleAnalytics />
 
 <main class="wrapper">
   <div>
