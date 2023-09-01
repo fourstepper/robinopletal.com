@@ -7,7 +7,7 @@
 
 <svelte:head>
   <title>Blog | {siteTitle}</title>
-  <meta name="description" content="Home of my blog posts" />
+  <meta name="description" content="Robin Opletal's blog" />
 </svelte:head>
 
 <h1>Blog</h1>

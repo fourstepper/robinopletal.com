@@ -39,16 +39,20 @@
 
   <meta property="og:url" content={siteLink} />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content={siteTitle} />
-  <meta property="og:description" content={siteDescription} />
-  <meta property="og:image" content="{siteLink}/opengraph/og-image.png" />
+  {#if !data.pathname.startsWith("/posts")}
+	<meta property="og:description" content={siteDescription} />
+	<meta property="og:title" content={siteTitle} />
+	<meta property="og:image" content="{siteLink}/opengraph/og-image.png" />
+  {/if}
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content={siteURL} />
   <meta property="twitter:url" content={siteLink} />
-  <meta name="twitter:title" content={siteTitle} />
-  <meta name="twitter:description" content={siteDescription} />
-  <meta name="twitter:image" content="{siteLink}/opengraph/og-image.png" />
+  {#if !data.pathname.startsWith("/posts")}
+	<meta name="twitter:description" content={siteDescription} />
+	<meta name="twitter:title" content={siteTitle} />
+	<meta name="twitter:image" content="{siteLink}/opengraph/og-image.png" />
+  {/if}
 </svelte:head>
 
 <main class="wrapper">
