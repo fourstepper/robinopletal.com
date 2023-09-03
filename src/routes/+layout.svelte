@@ -57,9 +57,8 @@
   {/if}
 </svelte:head>
 
-<PlausibleAnalytics apiHost="https://robinopletal.com/stats" />
-
 <main class="wrapper">
+<PlausibleAnalytics apiHost="https://robinopletal.com/stats" />
   <div>
     <Header />
     {#key data.pathname}
