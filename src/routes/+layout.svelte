@@ -10,7 +10,7 @@
   import { cubicOut } from "svelte/easing";
   export let data: LayoutData;
 
-  const duration = 150;
+  const duration = 300;
   const delay = 50;
   const y = 10;
 
