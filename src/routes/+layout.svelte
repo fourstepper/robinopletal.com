@@ -16,7 +16,7 @@
 
   const transitionIn = { easing: cubicOut, y, duration, delay };
 
-  import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
+  import { PlausibleAnalytics } from "@accuser/svelte-plausible-analytics";
 </script>
 
 <svelte:head>
@@ -39,7 +39,7 @@
   />
   <link rel="manifest" href="/favicon/site.webmanifest" />
 
-  <meta property="og:url" content={siteLink} />
+  <meta property="og:url" content="{siteLink}{data.pathname}" />
   <meta property="og:type" content="website" />
   {#if !data.pathname.startsWith("/posts")}
     <meta property="og:description" content={siteDescription} />
@@ -49,7 +49,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content={siteURL} />
-  <meta property="twitter:url" content={siteLink} />
+  <meta property="twitter:url" content="{siteLink}{data.pathname}" />
   {#if !data.pathname.startsWith("/posts")}
     <meta name="twitter:description" content={siteDescription} />
     <meta name="twitter:title" content={siteTitle} />
