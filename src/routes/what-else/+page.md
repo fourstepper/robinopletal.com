@@ -20,17 +20,24 @@ All headers have anchors on hover (you can tap-hold on mobile to show the clicka
 
 ## On this site
 
-- empty for now...
+empty for now...
 
-## On the internet
+---
 
-### Software
+## Cool things on the internet
 
-#### Utility
+### Utility software
 
-- Handling JSON in the shell
-  - [`jo` - A shell command to create JSON](https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/)
-  - [`jq` is a lightweight and flexible command-line JSON processor](https://jqlang.github.io/jq/)
+- Handling JSON in `sh`/`bash`
+  - [`jo`](https://github.com/jpmens/jo) - A shell command to create valid JSON
+    - motivation of the author outline [here](https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/)
+  - [`jq`](https://github.com/jqlang/jq) - A lightweight and flexible command-line JSON processor
+
+### Collaboration software
+
+- [`Excalidraw`](https://github.com/excalidraw/excalidraw) - An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted.
+
+---
 
 <h2 class="red">Why this site?</h2>
 
