@@ -18,9 +18,9 @@ All headers have anchors on hover (you can tap-hold on mobile to show the clicka
 
 ---
 
-## On this site
+## Cool things on this site
 
-empty for now...
+empty for now... (aside from what's available in the navbar)
 
 ---
 
