@@ -54,12 +54,11 @@
     >.
   </p>
   <h2>How I relax 🏃 📖 💻</h2>
-  <h3>Running et al.</h3>
   <p>
     I have been getting back into excercising. I enjoy running / swimming in the
     morning and longer walks in the evening. I also recreationally <span
       class="lower">(read: occassionally)</span
-    > hike, dive and play tennis.
+    > climb, hike, dive and play tennis.
   </p>
   <p>
     I would like to, eventually, run a 100K ultra-marathon. I am specifically
@@ -68,11 +67,10 @@
       href="https://mozart.utmb.world/">Mozart 100 by UTMB</a
     > event.
   </p>
-  <h3>Other activities</h3>
   <p>
-    As per usual, I like spending time with my loved ones, reading books,
-    watching TV shows, eating good food and drinking great coffee. Nothing
-    extraordinary 🫠
+    Similarly to most, I like to spend time with my loved ones, read books,
+    watch TV shows, eat good food and drink great coffee. Nothing extraordinary.
+    🫠
   </p>
   <h2>Get in touch!</h2>
   <p>If you think we should talk, feel free to reach out to me!</p>
