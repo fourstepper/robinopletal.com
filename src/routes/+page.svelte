@@ -49,7 +49,7 @@
     <a title="OpenTF website" href="https://opentf.org/">OpenTF</a> as well.
   </p>
   <p>
-    I currently work as an infrastructure Engineer at <a
+    I currently work as an Infrastructure Engineer at <a
       href="https://heureka.group/cz-en">Heureka Group</a
     >.
   </p>
