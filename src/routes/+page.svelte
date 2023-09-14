@@ -42,7 +42,7 @@
     <a title="Rust language website" href="https://www.rust-lang.org/">Rust</a>
     and lately,
     <a
-      title="Hashicorp adapts BSL"
+      title="Hashicorp adopts BSL"
       href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license"
       >unfortunately</a
     >,
