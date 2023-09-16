@@ -23,7 +23,7 @@ just build
 ## Build and preview locally
 
 ```bash
-just start
+just run
 ```
 
 ### Shoutouts!
