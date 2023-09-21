@@ -1,7 +1,7 @@
 ---
 title: "Quick Grafana variable template tips"
 date: 2023-06-25T17:13:29+01:00
-tags: ["grafana", "monitoring"]
+tags: ["grafana", "monitoring", "tips"]
 description: "If you extensively work with Grafana dashboards, you might need these sooner or later."
 ---
 

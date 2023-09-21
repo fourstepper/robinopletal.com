@@ -45,8 +45,8 @@
       title="Hashicorp adopts BSL"
       href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license"
       >unfortunately</a
-    >,
-    <a title="OpenTF website" href="https://opentf.org/">OpenTF</a> as well.
+    >, <s>OpenTF</s>
+    <a title="OpenTofu website" href="https://opentf.org/">OpenTofu</a> as well.
   </p>
   <p>
     I currently work as an Infrastructure Engineer at <a
