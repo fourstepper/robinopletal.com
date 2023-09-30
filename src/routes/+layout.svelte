@@ -15,8 +15,6 @@
   const y = 10;
 
   const transitionIn = { easing: cubicOut, y, duration, delay };
-
-  import { PlausibleAnalytics } from "@accuser/svelte-plausible-analytics";
 </script>
 
 <svelte:head>
@@ -56,8 +54,6 @@
     <meta name="twitter:image" content="{siteLink}/opengraph/og-image.png" />
   {/if}
 </svelte:head>
-
-<PlausibleAnalytics apiHost="https://robinopletal.com/stats" />
 
 <main class="wrapper">
   <div>
