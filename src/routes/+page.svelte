@@ -14,33 +14,28 @@
   </div>
   <h2>What I do 🛠️</h2>
   <p>
-    I enjoy using and
+    I enjoy and running (and sometimes
     <a title="My Codeberg (git) profile" href="https://codeberg.org/fourstepper"
       >building</a
-    >
-    quick, responsive software, making sure it's running and that it's observable.
+    >) great software, making sure it's stable and observable. If the software
+    isn't great, isn't stable or isn't observable, I enjoy changing it to be.
   </p>
   <p>
-    <s
-      >I also enjoy screaming at websites when their cumulative layout shift
-      makes me click the wrong thing for the fifth time in a row.</s
-    > <span class="lower">(definitely not that...)</span>
+    No matter the project, I focus on building simple and reliable
+    infrastructure that serves it's purpose and it's users to the maximum,
+    <strong>on scales from one to millions of users</strong>.
   </p>
   <p>
-    No matter the project, I focus on building stable, reliable infrastructure
-    that serves it's purpose and it's users to the maximum,
-    <strong>on scales from a single user to 10 million users</strong>.
-  </p>
-  <p>
-    Some technologies I am currently excited about include
+    Some technologies I am currently excited about include the
+    <a title="Grafana website" href="https://grafana.com">Grafana LGTM stack</a
+    >,
     <a title="Golang website" href="https://go.dev">Golang</a>,
     <a title="Svelte website" href="https://svelte.dev">Svelte</a><a
       title="SvelteKit website"
       href="https://kit.svelte.dev">(Kit)</a
     >,
-    <span class="lower">(which runs the website you are looking at)</span>,
-    <a title="Rust language website" href="https://www.rust-lang.org/">Rust</a>
-    and lately,
+    <span class="lower">(which runs the website you are looking at)</span>, and
+    lately,
     <a
       title="Hashicorp adopts BSL"
       href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license"
@@ -62,15 +57,18 @@
   </p>
   <p>
     I would like to, eventually, run a 100K ultra-marathon. I am specifically
-    eyeing the <a
-      title="Mozart 100 UTMB website"
-      href="https://mozart.utmb.world/">Mozart 100 by UTMB</a
-    > event.
+    eyeing the easier, Czech <a
+      title="Barokomaraton website"
+      href="http://barokomaraton.cz/en/en/">Barokomaraton 100K</a
+    >
+    to start off with and the
+    <a href="https://valdaran.utmb.world/">Val d'Aran 100K / 100 miler</a>
+    later on, as I progress.
   </p>
   <p>
-    Similarly to most, I like to spend time with my loved ones, read books,
-    watch TV shows, eat good food and drink great coffee. Nothing extraordinary.
-    🫠
+    Other than that, similarly to most others, I like to spend time with my
+    loved ones, read books, watch TV shows, eat good food and drink great
+    coffee. Nothing extraordinary. 🫠
   </p>
   <h2>Get in touch!</h2>
   <p>If you think we should talk, feel free to reach out to me!</p>
