@@ -9,8 +9,8 @@
 
 <div>
   <div>
-    <h1>Hey there, I am Robin! 🌊</h1>
-    <p class="intro">Welcome to my website</p>
+    <h1>Hey there, I am Robin!</h1>
+    <p class="intro">Welcome to my website ☺️</p>
   </div>
   <h2>What I do 🛠️</h2>
   <p>
