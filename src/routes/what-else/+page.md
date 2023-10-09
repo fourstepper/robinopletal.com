@@ -20,7 +20,9 @@ All headers have anchors on hover (you can tap-hold on mobile to show the clicka
 
 ## Cool things on this site
 
-empty for now... (aside from what's available in the navbar)
+Empty for now... (aside from what's available in the navbar).
+
+[Here](https://robinopletal.com/posts/switched-to-sveltekit#whats-next) are some ideas that might be coming as pages on this blog later on. :)
 
 ---
 
