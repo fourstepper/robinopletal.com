@@ -14,7 +14,7 @@
   </div>
   <h2>What I do 🛠️</h2>
   <p>
-    I enjoy and running (and sometimes
+    I enjoy running (and sometimes
     <a title="My Codeberg (git) profile" href="https://codeberg.org/fourstepper"
       >building</a
     >) great software, making sure it's stable and observable. If the software
