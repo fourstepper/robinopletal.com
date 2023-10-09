@@ -10,10 +10,10 @@
 
 # Contact
 
-The contact form is still in the making - in the meantime, feel free to reach out to me via:
+The contact form is still in the making - in the meantime, feel free to reach out to me via one of the following channels:
 
 - [E-mail](mailto:me@robinopletal.com)
 - [Matrix](https://matrix.to/#/@fourstepper:matrix.org)
-- or [Mastodon](https://mastodon.social/@fourstepper).
+- [Mastodon](https://mastodon.social/@fourstepper).
 
 I will be looking forward to hearing from you!
