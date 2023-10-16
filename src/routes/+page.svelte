@@ -56,14 +56,19 @@
     > climb, hike, dive and play tennis.
   </p>
   <p>
-    I would like to, eventually, run a 100K ultra-marathon. I am specifically
-    eyeing the easier, Czech <a
-      title="Barokomaraton website"
-      href="http://barokomaraton.cz/en/en/">Barokomaraton 100K</a
-    >
-    to start off with and the
-    <a href="https://valdaran.utmb.world/">Val d'Aran 100K / 100 miler</a>
-    later on, as I progress.
+    I would like to, eventually, run a 100K ultra-marathon.
+    <s>
+      I am specifically eyeing the easier, Czech <a
+        title="Barokomaraton website"
+        href="http://barokomaraton.cz/en/en/">Barokomaraton 100K</a
+      >
+      to start off with and the
+      <a href="https://valdaran.utmb.world/">Val d'Aran 100K / 100 miler</a>
+      later on, as I progress.
+    </s>
+    For 2024, I've registered for the beautiful
+    <a href="https://mozart.utmb.world/races/mozart100">mozart 100</a> race in Austria.
+    Super excited already!
   </p>
   <p>
     Other than that, similarly to most others, I like to spend time with my
