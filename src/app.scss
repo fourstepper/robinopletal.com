@@ -62,10 +62,7 @@ img {
     text-decoration-color: getColor(yellow);
     text-decoration-thickness: 0.15rem;
     text-underline-offset: 0.25rem;
-  }
-  a:active {
-      text-decoration: none;
-  }
+	}
 }
 
 .blog :where(h2, h3, h4, h5, h6) {

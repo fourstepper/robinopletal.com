@@ -10,7 +10,9 @@
     <ul>
       {#each navItems as item}
         <li>
-          <a href={item.route}>{item.title}</a>
+          <div class="hover-links">
+            <a href={item.route}>{item.title}</a>
+          </div>
         </li>
       {/each}
     </ul>
@@ -20,9 +22,6 @@
 <hr />
 
 <style lang="scss">
-  a {
-    text-decoration: none;
-  }
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +31,7 @@
     row-gap: 0.5rem;
   }
   .heading {
+    text-decoration: none;
     color: getColor(purple);
     font-size: 2rem;
     font-weight: bold;
