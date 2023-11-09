@@ -56,7 +56,7 @@
     > climb, hike, dive and play tennis.
   </p>
   <p>
-    I would like to, eventually, run a 100K ultra-marathon.
+    I am currently preparing for a 100K ultra-marathon.
     <s>
       I am specifically eyeing the easier, Czech <a
         title="Barokomaraton website"
