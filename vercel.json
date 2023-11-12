@@ -1,6 +1,15 @@
 {
   "regions": ["fra1"],
   "redirects": [
-    { "source": "/tags/:path*", "destination": "/posts/tags/:path*" }
+    {
+      "source": "/tags/:path*",
+      "destination": "/posts/tags/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tags/:path*/",
+      "destination": "/posts/tags/:path*/",
+      "permanent": true
+    }
   ]
 }
