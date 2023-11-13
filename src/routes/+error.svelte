@@ -3,5 +3,5 @@
 </script>
 
 <h1 class="mx-auto mb-auto text-4xl">
-  {$page.status}: {$page.error.message} 
+  {$page.status}: {$page.error?.message}
 </h1>
