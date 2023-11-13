@@ -1,3 +1,4 @@
+
 when:
   - event:
       - push
@@ -13,6 +14,7 @@ steps:
     settings:
       repo: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
       registry: codeberg.org
+      platforms: linux/amd64,linux/arm64/v8
       dockerfile: .woodpecker/Dockerfile
       username: ${CI_REPO_OWNER}
       password:
@@ -25,6 +27,7 @@ steps:
     settings:
       repo: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
       registry: codeberg.org
+      platforms: linux/amd64,linux/arm64/v8
       tags: latest, ${CI_COMMIT_SHA}
       dockerfile: .woodpecker/Dockerfile
       username: ${CI_REPO_OWNER}
