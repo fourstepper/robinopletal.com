@@ -1,17 +1,19 @@
-
 when:
-  event:
-    - push
-    - manual
+  - event:
+      - push
+    path:
+      include: [".woodpecker/build-sveltekit-buildimage.yaml", ".woodpecker/Dockerfile"]
+      ignore_message: "[ALL]"
+  - event:
+      - manual
 
 steps:
   publish-image-branch:
     image: woodpeckerci/plugin-docker-buildx
     settings:
-      repo: codeberg.org/${CI_REPO_OWNER}/robinopletal.com
+      repo: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
       registry: codeberg.org
-      tags: ${CI_COMMIT_SHA}
-      # platforms: linux/amd64,linux/arm64/v8
+      dockerfile: .woodpecker/Dockerfile
       username: ${CI_REPO_OWNER}
       password:
         from_secret: cb_token
@@ -21,10 +23,10 @@ steps:
   publish-image-latest:
     image: woodpeckerci/plugin-docker-buildx
     settings:
-      repo: codeberg.org/${CI_REPO_OWNER}/robinopletal.com
+      repo: codeberg.org/${CI_REPO_OWNER}/sveltekit-robinopletal-buildimage
       registry: codeberg.org
-      # platforms: linux/amd64,linux/arm64/v8
       tags: latest, ${CI_COMMIT_SHA}
+      dockerfile: .woodpecker/Dockerfile
       username: ${CI_REPO_OWNER}
       password:
         from_secret: cb_token
