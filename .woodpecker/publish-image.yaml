@@ -1,9 +1,8 @@
 
 when:
-  - event:
+  event:
     - push
     - manual
-  - evaluate: 'CI_PIPELINE_EVENT == "push" && CI_REPO == "${CI_REPO_OWNER}/ansible-play-dockerhost" && CI_COMMIT_BRANCH == CI_REPO_DEFAULT_BRANCH'
 
 steps:
   publish-image-branch:
