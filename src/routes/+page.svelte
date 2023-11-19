@@ -15,7 +15,7 @@
   <h2>What I do 🛠️</h2>
   <p>
     I enjoy running (and sometimes
-    <a title="My Codeberg (git) profile" href="https://codeberg.org/fourstepper"
+    <a title="My Github profile" href="https://github.com/fourstepper"
       >building</a
     >) great software, making sure it's stable and observable. If the software
     isn't great, isn't stable or isn't observable, I enjoy changing it to be.
@@ -66,7 +66,9 @@
       <a href="https://valdaran.utmb.world/">Val d'Aran 100K / 100 miler</a>
       later on, as I progress.
     </s>
-    For 2024, I've registered for the beautiful
+  </p>
+  <p>
+    <strong> Update!</strong> For 2024, I've registered for the beautiful
     <a href="https://mozart.utmb.world/races/mozart100">mozart 100</a> race in Austria.
     Super excited already!
   </p>

@@ -13,7 +13,7 @@
     <div class="vertical-divider" />
     <a
       class="link-hover"
-      href="https://codeberg.org/fourstepper/robinopletal.com"
+      href="https://github.com/fourstepper/robinopletal.com"
       target="_blank">Source code is MIT</a
     >
   </footer>

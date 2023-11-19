@@ -42,15 +42,15 @@ Three reasons:
      HTML, CSS is CSS and Javascript feels like Javascript.
 3. It's **sexy**
    - A small but good example is that I can [define CSS per component
-     ](https://codeberg.org/fourstepper/robinopletal.com/src/branch/main/src/lib/components/Footer.svelte#L22-L60)
+     ](https://github.com/fourstepper/robinopletal.com/tree/main/src/lib/components/Footer.svelte#L22-L60)
      instead of having to do
-     [everything globally](https://codeberg.org/fourstepper/robinopletal.com/src/branch/main/src/app.scss).
+     [everything globally](https://github.com/fourstepper/robinopletal.com/tree/main/src/app.scss).
      This basically eliminates the need for something like Tailwind CSS and
      made me appreciate CSS over Tailwind (which I initially thought was just way better).
    - I am no frontend genius, but I wanted some _nice_ transition animations on my site.
      It took me less than 30 minutes to implement this from the moment I started looking at the documentation.
-     [Here](https://codeberg.org/fourstepper/robinopletal.com/src/branch/main/src/routes/+layout.svelte#L9-L17)
-     is the full [implementation](https://codeberg.org/fourstepper/robinopletal.com/src/branch/main/src/routes/+layout.svelte#L61).
+     [Here](https://github.com/fourstepper/robinopletal.com/tree/main/src/routes/+layout.svelte#L9-L17)
+     is the full [implementation](https://github.com/fourstepper/robinopletal.com/tree/main/src/routes/+layout.svelte#L61).
 
 ## What's next?
 
@@ -71,7 +71,7 @@ I don't want to spoil the whole list, but here are a couple ideas:
 
 - Create a `/changelog` page that would simply reflect things changed/added to the blog
   - Not sure if this holds much value as the entire
-    [git commit history is public](https://codeberg.org/fourstepper/robinopletal.com/).
+    [git commit history is public](https://github.com/fourstepper/robinopletal.com).
 - Add a little "Reactions" section.
   - The idea here is to have a little self-made comment section, together with some
     simple, emoji-based reactions together with a reaction counter per-post. I got this

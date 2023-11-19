@@ -90,7 +90,7 @@ Here is an example of three _panes_ in a robinopletal.com _window_, running in a
 `tmux` is a terrific piece of software, but it's default keyboard shortcuts didn't suit me at all - so, I changed them!
 
 I will not go in-depth into how one configures these in the `~/.tmux.conf` file - feel free to reference my config on
-[Codeberg](https://codeberg.org/fourstepper/dotfiles/src/branch/main/.tmux.conf).
+[Github](https://github.com/fourstepper/dotfiles/tree/main/.tmux.conf).
 
 The one thing I will mention right off the bat to avoid confusion is that `tmux` has a concept of a `<leader>` sequence.
 By default, this is `Ctrl+b`, however I've changed mine to `Ctrl+a`. I will reference to this whole sequence simply by saying `<leader>`.
