@@ -2,7 +2,7 @@
 
 This repository is a SvelteKit project that runs [my website](https://robinopletal.com).
 
-[![status-badge](https://ci.codeberg.org/api/badges/12568/status.svg)](https://ci.codeberg.org/repos/12568)
+[![Create and publish the Docker image](https://github.com/fourstepper/robinopletal.com/actions/workflows/publish-image.yaml/badge.svg)](https://github.com/fourstepper/robinopletal.com/actions/workflows/publish-image.yaml)
 
 [![Pagespeed Insights](robinopletal-pagespeed.svg)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Frobinopletal.com%2F)
 
