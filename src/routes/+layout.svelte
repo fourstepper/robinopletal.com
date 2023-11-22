@@ -77,7 +77,11 @@
     margin-right: auto;
     margin-bottom: auto;
     max-width: 56rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 2rem;
+  }
+  @media screen and (max-width: 640px) {
+    .wrapper {
+      padding: 0 1rem;
+    }
   }
 </style>
