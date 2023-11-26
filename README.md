@@ -8,22 +8,22 @@ This repository is a SvelteKit project that runs [my website](https://robinoplet
 
 ## Developing
 
-Install [`just`](https://github.com/casey/just)
+Install `npm`
 
 ```bash
-just dev
+npm run dev
 ```
 
 ## Building
 
 ```bash
-just build
+npm run build
 ```
 
 ## Build and preview locally
 
 ```bash
-just run
+npm run build && npm run preview
 ```
 
 ### Shoutouts!
