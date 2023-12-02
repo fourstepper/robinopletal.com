@@ -93,7 +93,7 @@ is perfect:
 
 </details>
 
-## A common (A)GPLv3 freak
+## Starting off: A common (A)GPLv3 freak
 
 I will admit. For quite some time, I have been a pretty heavy copyleft license freak. I've genuinly
 felt that licenses that are too permissive (i.e. MIT and Apache 2) give way too much freedom to
@@ -102,9 +102,9 @@ those _evil corporations_ that only want to take software that we love and go fu
 
 I've also heavily preferred licensing my own projects under one of the above licenses.
 
-In my mind back then, in an ideal world, all software would be licensed under a copyleft license
-and market competitors would have to win out customers on different terms than proprietary technology. And
-don't get me wrong... a part of me _still feels like this would be incredible_ for users of software
+In my mind back then, all software in an ideal world would be licensed under a copyleft license
+and market competitors would have to win out customers on different terms than on proprietary technology. And
+don't get me wrong... a part of me _still kinda feels like this would be incredible_ for users of software
 in general.
 
 The problem is that we don't live in an ideal world:
@@ -149,7 +149,7 @@ aren't planning on selling Ruby on Rails itself.
 They instead all use Rails as a common baseline that propels
 _everyone_ forward and all contribute back to their common baseline.
 
-## The case for copyleft licenses
+## Copyleft isn't all bad!
 
 The above story with the Ruby on Rails framework is a wonderful, long-term success story of free software.
 The common ground of all contributing companies and individuals is that none of them are trying to sell Rails
@@ -171,7 +171,35 @@ AGPLv3 licensed. Such setup incentivizes Amazon to instead try collaborating wit
 customers the best experience together, instead of blatantly taking the source code without contributing to the
 everyone's stable baseline.
 
-AGPLv3 works really well for Grafana, as their open-source project is directly their product.
+**AGPLv3 works really well for Grafana, as their open-source project is directly their product.**
+
+So where is the catch?
+
+## Businesses and people
+
+In my opinion, the catch is in the _mosts_.
+
+Most businesses can't really afford making their own product open-source (or at least they think so).
+
+**37signals don't feel like they can afford making their own product open-source**, and yet, they contribute so much.
+
+Even if most businesses don't think they can afford to make their own product open-source, they still _might_
+use/produce/invest in open-source software, similarly to 37signals.
+
+**They also just might not.**
+
+What they definitely will do, if they want to continue their company's growth, is hire great people.
+
+In turn, those
+technical hirees most likely work with open-source software. Some of them might contribute back issues and bug
+repors, some of them might send merge requests with changes or features, and some might even maintain an
+open-source project themselves.
+
+Maybe, due to company policy,
+[they can't use](https://opensource.google/documentation/reference/thirdparty/licenses#agpl_affero_gpl_osl_and_sspl_not_allowed)
+copyleft-licensed code. So they don't **and instead they use permissively licensed software and contribute to it**.
+
+The license fits their need. **It fits their freedom**. And helps others in the community. who receive their contribution.
 
 ## Beyond the open-source licenses micro-war
 
