@@ -1,7 +1,7 @@
 ---
 title: "Free software licenses; A longer-term thought"
 date: 2023-12-02T12:11:21+02:00
-tags: ["open-source", "software", "thoughts"]
+tags: ["open-source", "free software", "thoughts"]
 description: "What does Free actually mean, and to whom?"
 ---
 
@@ -32,6 +32,8 @@ summary available below:
 <details><summary>
 <strong><u>Licenses summary</u></strong>
 </summary>
+
+---
 
 #### [MIT](https://mit-license.org/)
 
@@ -84,6 +86,10 @@ is perfect:
 > and freedoms as the GPLv3 but with an additional clause which makes it so that source code must be
 > distributed along with web publication. Since web sites and services are never distributed in the
 > traditional sense, the AGPL is the GPL of the web.
+
+<strong><u>Summary end</u></strong>
+
+---
 
 </details>
 
