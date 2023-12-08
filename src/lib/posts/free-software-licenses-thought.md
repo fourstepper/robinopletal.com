@@ -95,12 +95,11 @@ is perfect:
 
 ## Starting off: A common (A)GPLv3 freak
 
-I will admit. For quite some time, I have been a pretty heavy copyleft license freak. I've genuinly
-felt that licenses that are too permissive (i.e. MIT and Apache 2) give way too much freedom to
+I will admit. I have been a pretty heavy copyleft license freak.
+
+I've genuinly felt that licenses that are too permissive (i.e. MIT and Apache 2) give way too much freedom to
 those _evil corporations_ that only want to take software that we love and go full-on
 [Embrace, extend, and extinguish](https://en.wikipedia.org/wiki/Embrace%2C_extend%2C_and_extinguish) on it.
-
-I've also heavily preferred licensing my own projects under one of the above licenses.
 
 In my mind back then, all software in an ideal world would be licensed under a copyleft license
 and market competitors would have to win out customers on different terms than on proprietary technology. And
@@ -116,8 +115,8 @@ The problem is that we don't live in an ideal world:
 - Companies should be able to, to a reasonable extent, _own knowledge_, in my opinion. Furthermore, this
   company's possibility of _owning knowledge_ can in turn be beneficial to Free software.
 
-From the above, I think my last point specifically would be the most controversial one in a discussion with
-someone who is heavily copyleft leaning (_LOL, this is starting to sound almost political_), so I will expand
+I think the last point specifically would be the most controversial one in a discussion with
+someone who is heavily copyleft-leaning (_LOL, this is starting to sound almost political_), so I will expand
 on my point right away.
 
 ## The case for permissive licenses
@@ -217,7 +216,7 @@ bigger issues:
    [BSL](https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license)).
 3. I don't know, [a large portion of the planet's population not having access to clean water](https://www.who.int/news/item/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who)...?
 
-As mentioned, some people make a choice not to care and use closed-source software. Others will choose to
+Some people make a choice not to care and use closed-source software. Others will choose to
 only use software that is Free software by definition.
 
 I myself am currently paid by a company that creates primarily closed-source, proprietary software. If I have
@@ -228,8 +227,7 @@ try helping anyone around me find a suitable open-source alternative to software
 What I will stop doing is criticizing other people around me for software choices they are
 making for themselves. I definitely am guilty of doing this in the past.
 
-I definitely would also like to be more thankful for the software gifts I receive from strangers
-on the internet going into the future.
+I would also like to be more thankful for the software gifts I receive from strangers
+on the internet, going into the future.
 
-To all people giving others gifts in the form of Free software;
-THANK YOU!
+To all people giving others gifts in the form of Free software; **THANK YOU!**
