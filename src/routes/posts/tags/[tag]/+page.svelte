@@ -1,6 +1,5 @@
 <script lang="ts">
   import PostsList from "$lib/components/PostsList.svelte";
-  import { siteTitle } from "$lib/config";
 
   export let data;
 </script>
