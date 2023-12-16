@@ -1,8 +1,8 @@
 export const load = async ({ url, fetch }: { url: URL; fetch: any }) => {
   const postRes = await fetch(`${url.origin}/api/posts.json`);
-  const posts = await postRes.json();
+  const posts: Post[] = await postRes.json();
 
-  let uniqueTags: string[] = [];
+  let uniqueTags: Post["tags"] = [];
 
   for (let post of posts) {
     if (!post.tags) {

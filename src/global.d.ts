@@ -1,6 +1,6 @@
 type Theme = "system" | "light" | "dark";
 
-interface PostMetadata {
+interface Post {
   slug: string;
   title: string;
   date: DateConstructor;

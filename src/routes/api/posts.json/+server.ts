@@ -6,6 +6,6 @@ export const prerender = true;
 export const GET = async () => {
   const options = {};
 
-  const { posts } = await fetchPosts(options);
+  const { posts }: { posts: Post[] } = await fetchPosts(options);
   return json(posts);
 };

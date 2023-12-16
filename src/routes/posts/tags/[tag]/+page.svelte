@@ -17,10 +17,10 @@
 <PostsList posts={data.filteredPosts} />
 
 <style lang="scss">
-	span {
-		color: getColor(red);
-	}
-	h1 {
-		margin-bottom: 0;
-	}
+  span {
+    color: getColor(red);
+  }
+  h1 {
+    margin-bottom: 0;
+  }
 </style>
