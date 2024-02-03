@@ -14,68 +14,41 @@
   </div>
   <h2>What I do 🛠️</h2>
   <p>
-    I enjoy running (and sometimes
+    I enjoy running and
     <a title="My Github profile" href="https://github.com/fourstepper"
       >building</a
-    >) great software, making sure it's stable and observable. If the software
-    isn't great, isn't stable or isn't observable, I enjoy changing it to be.
+    > great software, making sure it's stable and observable.
   </p>
   <p>
     No matter the project, I focus on building simple and reliable
-    infrastructure that serves it's purpose and it's users to the maximum,
-    <strong>on scales from one to millions of users</strong>.
-  </p>
-  <p>
-    Some technologies I am currently excited about include the
-    <a title="Grafana website" href="https://grafana.com">Grafana LGTM stack</a
-    >,
-    <a title="Golang website" href="https://go.dev">Golang</a>,
-    <a title="Svelte website" href="https://svelte.dev">Svelte</a><a
-      title="SvelteKit website"
-      href="https://kit.svelte.dev">(Kit)</a
-    >,
-    <span class="lower">(which runs the website you are looking at)</span>, and
-    lately,
-    <a
-      title="Hashicorp adopts BSL"
-      href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license"
-      >unfortunately</a
-    >, <s>OpenTF</s>
-    <a title="OpenTofu website" href="https://opentf.org/">OpenTofu</a> as well.
+    infrastructure that serves it's purpose, on a scale from a single user to
+    millions of users.
   </p>
   <p>
     I currently work as an Infrastructure Engineer at <a
       href="https://heureka.group/cz-en">Heureka Group</a
     >.
   </p>
+  <p>
+    If you think I could help you with your project as well, <a href="/contact"
+      >please do let me know!</a
+    >
+  </p>
   <h2>How I relax 🏃 📖 💻</h2>
   <p>
-    I have been getting back into excercising. I enjoy running / swimming in the
-    morning and longer walks in the evening. I also recreationally <span
-      class="lower">(read: occassionally)</span
-    > climb, hike, dive and play tennis.
+    I am up for most sports, however running and climbing have been my top
+    choices as of late.
   </p>
   <p>
-    I am currently preparing for a 100K ultra-marathon.
-    <s>
-      I am specifically eyeing the easier, Czech <a
-        title="Barokomaraton website"
-        href="http://barokomaraton.cz/en/en/">Barokomaraton 100K</a
-      >
-      to start off with and the
-      <a href="https://valdaran.utmb.world/">Val d'Aran 100K / 100 miler</a>
-      later on, as I progress.
-    </s>
+    I am currently preparing for my first 100 km ultra-marathon, which will be
+    the beautiful <a href="https://mozart.utmb.world/races/mozart100"
+      >mozart 100</a
+    > race in Austria. Super excited already!
   </p>
   <p>
-    <strong> Update!</strong> For 2024, I've registered for the beautiful
-    <a href="https://mozart.utmb.world/races/mozart100">mozart 100</a> race in Austria.
-    Super excited already!
-  </p>
-  <p>
-    Other than that, similarly to most others, I like to spend time with my
-    loved ones, read books, watch TV shows, eat good food and drink great
-    coffee. Nothing extraordinary. 🫠
+    Other than that, I like to spend time with my loved ones, geek out on and
+    around the computer, read books, watch movies and TV shows, eat good food
+    and drink great coffee.
   </p>
   <h2>Get in touch!</h2>
   <p>If you think we should talk, feel free to reach out to me!</p>

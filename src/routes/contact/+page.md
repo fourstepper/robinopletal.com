@@ -16,4 +16,6 @@ The contact form is still in the making - in the meantime, feel free to reach ou
 - [Matrix](https://matrix.to/#/@fourstepper:matrix.org)
 - [Mastodon](https://mastodon.social/@fourstepper)
 
+I speak 🇨🇿, 🇺🇸 and a bit of 🇩🇪 as well.
+
 I will be looking forward to hearing from you!
