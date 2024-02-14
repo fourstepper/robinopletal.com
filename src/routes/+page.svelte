@@ -75,8 +75,4 @@
     margin-top: 0;
     font-size: 1.125rem;
   }
-  .lower {
-    font-size: 0.875rem;
-    font-style: italic;
-  }
 </style>
