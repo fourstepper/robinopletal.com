@@ -25,8 +25,8 @@
     millions of users.
   </p>
   <p>
-    I currently work as an Infrastructure Engineer at <a
-      href="https://heureka.group/cz-en">Heureka Group</a
+    I currently work as a Platform Engineer at <a href="https://inuits.eu"
+      >Inuits</a
     >.
   </p>
   <p>
@@ -36,14 +36,10 @@
   </p>
   <h2>How I relax 🏃 📖 💻</h2>
   <p>
-    I am up for most sports, however running and climbing have been my top
-    choices as of late.
-  </p>
-  <p>
-    I am currently preparing for my first 100 km ultra-marathon, which will be
-    the beautiful <a href="https://mozart.utmb.world/races/mozart100"
-      >mozart 100</a
-    > race in Austria. Super excited already!
+    I am up for most sports, however swimming, cycling, running and climbing
+    have been my top choices as of late. <a
+      href="https://www.strava.com/athletes/125532839">Follow me on Strava</a
+    > if you wanna see what I'm up to!
   </p>
   <p>
     Other than that, I like to spend time with my loved ones, geek out on and
@@ -51,18 +47,11 @@
     and drink great coffee.
   </p>
   <h2>Get in touch!</h2>
-  <p>If you think we should talk, feel free to reach out to me!</p>
   <p>
-    I'm available via
-    <a title="Send me an e-mail" href="mailto:me@robinopletal.com">E-mail</a>,
-    on
-    <a
-      title="My Matrix account"
-      href="https://matrix.to/#/@fourstepper:matrix.org">Matrix</a
-    >, and on
-    <a title="My Mastodon profile" href="https://mastodon.social/@fourstepper"
-      >Mastodon</a
-    >.
+    If you think we should talk, feel free to reach out to me via <a
+      title="Send me an e-mail"
+      href="mailto:me@robinopletal.com">e-mail</a
+    >!
   </p>
 </div>
 

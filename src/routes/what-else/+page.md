@@ -24,7 +24,7 @@ Empty for now... (aside from what's available in the navbar).
 
 <h2 class="red">Why this page?</h2>
 
-I didn't want to implement a complicated, Javascript-dependent navigation bar. Maybe it can be done, however I thought that a separate page could work really well - both for navigation on this site, as well as outside of it.
+I didn't want to implement a complicated, Javascript-dependent navigation bar. Maybe it can be done, however I thought that a separate page could work really well - both for navigation to stuff on this site, as well as things on the world-wide web.
 
 </div>
 
