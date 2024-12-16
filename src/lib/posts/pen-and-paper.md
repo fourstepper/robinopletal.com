@@ -41,10 +41,7 @@ tasks, meeting notes and general remarks still.
 
 Here, I decided to experiment with pen and paper once more. Instead of buying a new Moleskin
 planner right away with the intent of being the most productive person on Earth with that
-tool, I instead opted for an upcycled notebook of my girlfriends', that she hasn't started
-using yet:
-
-![The notebook](../../images/pen-and-paper/notebook.jpg)
+tool, I opted for an upcycled notebook instead.
 
 The notebook doesn't contain anything fancy. It's lined, and that's about it as far as
 features go.
