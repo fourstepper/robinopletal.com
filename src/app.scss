@@ -50,6 +50,14 @@ img {
     max-width:100%;
 }
 
+blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid getColor(blue);
+    background-color: getColor(background-rich);
+    font-style: italic;
+}
+
 .hover-links {
   a {
     text-decoration: none;
