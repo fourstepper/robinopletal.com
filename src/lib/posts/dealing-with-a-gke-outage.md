@@ -1,6 +1,6 @@
 ---
 title: "Dealing with a Google Kubernetes Engine Cluster Outage"
-tags: ["postmortems", "kubernetes", "heureka.group"]
+tags: ["postmortems", "kubernetes"]
 date: 2022-03-31T09:25:21+02:00
 description: 'Also known as: "How we managed to badly misconfigure OPA Gatekeeper"'
 ---

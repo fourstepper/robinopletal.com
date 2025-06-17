@@ -1,7 +1,7 @@
 ---
 title: "Open-Source Summit EU 2022 - what have you missed?"
 date: 2022-09-20T16:12:21+02:00
-tags: ["conferences", "heureka.group"]
+tags: ["conferences"]
 description: "Interesting bits and notes from the 2022 Open Source Summit."
 ---
 
