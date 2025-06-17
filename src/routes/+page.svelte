@@ -17,7 +17,7 @@
     I enjoy running and
     <a title="My Github profile" href="https://github.com/fourstepper"
       >building</a
-    > great software, making sure it's stable and observable.
+    > great software, making sure it's stable, observable and secure.
   </p>
   <p>
     No matter the project, I focus on building simple and reliable
@@ -25,9 +25,9 @@
     millions of users.
   </p>
   <p>
-    I currently work as a Platform Engineer at <a href="https://inuits.eu"
-      >Inuits</a
-    >.
+    I currently work as an Application Security Engineer at <a
+      href="https://kiwi.com">kiwi.com</a
+    > ✈️.
   </p>
   <p>
     If you think I could help you with your project as well, <a href="/contact"
@@ -37,7 +37,10 @@
   <h2>How I relax 🏃 📖 💻</h2>
   <p>
     I am up for most sports, however swimming, cycling, running and climbing
-    have been my top choices as of late. <a
+    have been my top choices as of late.
+  </p>
+  <p>
+    <a
       href="https://www.strava.com/athletes/125532839">Follow me on Strava</a
     > if you wanna see what I'm up to!
   </p>
