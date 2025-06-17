@@ -14,7 +14,7 @@
 
 # Tags
 
-<TagsList uniqueTags={data.uniqueTags} />
+<TagsList uniqueTags={data.uniqueTags} tagCounts={data.tagCounts} />
 
 <style lang="scss">
   h1 {
