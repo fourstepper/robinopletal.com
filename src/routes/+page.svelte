@@ -25,8 +25,8 @@
     millions of users.
   </p>
   <p>
-    I currently work as an Application Security Engineer at <a
-      href="https://kiwi.com">kiwi.com</a
+    I currently work as a cloud security engineer at <a href="https://kiwi.com"
+      >kiwi.com</a
     > ✈️.
   </p>
   <p>
@@ -40,9 +40,8 @@
     have been my top choices as of late.
   </p>
   <p>
-    <a
-      href="https://www.strava.com/athletes/125532839">Follow me on Strava</a
-    > if you wanna see what I'm up to!
+    <a href="https://www.strava.com/athletes/125532839">Follow me on Strava</a> if
+    you wanna see what I'm up to!
   </p>
   <p>
     Other than that, I like to spend time with my loved ones, geek out on and
