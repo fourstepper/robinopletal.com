@@ -25,7 +25,7 @@
     millions of users.
   </p>
   <p>
-    I currently work as a cloud security engineer at <a href="https://kiwi.com"
+    I currently work as a Cloud Security Engineer at <a href="https://kiwi.com"
       >kiwi.com</a
     > ✈️.
   </p>
