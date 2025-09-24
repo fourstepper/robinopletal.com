@@ -14,15 +14,10 @@
   </div>
   <h2>What I do 🛠️</h2>
   <p>
-    I enjoy running and
+    I enjoy
     <a title="My Github profile" href="https://github.com/fourstepper"
       >building</a
-    > great software, making sure it's stable, observable and secure.
-  </p>
-  <p>
-    No matter the project, I focus on building simple and reliable
-    infrastructure that serves it's purpose, on a scale from a single user to
-    millions of users.
+    > and running great software, making sure it's stable, observable and secure.
   </p>
   <p>
     I currently work as a Cloud Security Engineer at <a href="https://kiwi.com"
