@@ -5,8 +5,7 @@ CREATE TABLE IF NOT EXISTS comments (
     author_name VARCHAR(100) NOT NULL,
     author_email VARCHAR(255) NOT NULL,
     content TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    approved BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
     parent_id INTEGER REFERENCES comments(id) ON DELETE CASCADE
 );
 
@@ -21,7 +20,7 @@ CREATE TABLE IF NOT EXISTS comment_rate_limits (
     id SERIAL PRIMARY KEY,
     ip_address VARCHAR(45) NOT NULL,
     comment_count INTEGER DEFAULT 1,
-    window_start TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    window_start TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
     UNIQUE(ip_address)
 );
 

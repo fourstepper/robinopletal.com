@@ -2,33 +2,33 @@
   export let postSlug: string;
   export let onSubmitSuccess: () => void;
 
-  let authorName = '';
-  let authorEmail = '';
-  let content = '';
+  let authorName = "";
+  let authorEmail = "";
+  let content = "";
   let isSubmitting = false;
-  let errorMessage = '';
-  let successMessage = '';
+  let errorMessage = "";
+  let successMessage = "";
 
   async function handleSubmit(event: Event) {
     event.preventDefault();
 
     // Reset messages
-    errorMessage = '';
-    successMessage = '';
+    errorMessage = "";
+    successMessage = "";
 
     // Client-side validation
     if (!authorName.trim() || authorName.trim().length < 2) {
-      errorMessage = 'Please enter your name (at least 2 characters)';
+      errorMessage = "Please enter your name (at least 2 characters)";
       return;
     }
 
     if (!authorEmail.trim() || !isValidEmail(authorEmail)) {
-      errorMessage = 'Please enter a valid email address';
+      errorMessage = "Please enter a valid email address";
       return;
     }
 
     if (!content.trim() || content.trim().length < 3) {
-      errorMessage = 'Please enter a comment (at least 3 characters)';
+      errorMessage = "Please enter a comment (at least 3 characters)";
       return;
     }
 
@@ -36,36 +36,35 @@
 
     try {
       const response = await fetch(`/api/comments/${postSlug}`, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json'
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           author_name: authorName,
           author_email: authorEmail,
-          content: content
-        })
+          content: content,
+        }),
       });
 
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.message || 'Failed to submit comment');
+        throw new Error(data.message || "Failed to submit comment");
       }
 
       // Success
-      successMessage = 'Comment posted successfully!';
+      successMessage = "Comment posted successfully!";
 
       // Clear form
-      authorName = '';
-      authorEmail = '';
-      content = '';
+      authorName = "";
+      authorEmail = "";
+      content = "";
 
       // Notify parent component
       onSubmitSuccess();
-
     } catch (error: any) {
-      errorMessage = error.message || 'An error occurred. Please try again.';
+      errorMessage = error.message || "An error occurred. Please try again.";
     } finally {
       isSubmitting = false;
     }
@@ -137,7 +136,7 @@
   </div>
 
   <button type="submit" disabled={isSubmitting} class="submit-btn">
-    {isSubmitting ? 'Submitting...' : 'Submit Comment'}
+    {isSubmitting ? "Submitting..." : "Submit Comment"}
   </button>
 </form>
 
@@ -145,13 +144,15 @@
   .comment-form {
     margin: 2rem 0;
     padding: 1.5rem;
-    background: #f9f9f9;
+    background: getColor(background);
     border-radius: 8px;
+    border: 2px solid getColor(background-rich);
 
     h3 {
       margin-top: 0;
       margin-bottom: 1.5rem;
       font-size: 1.3rem;
+      color: getColor(foreground-rich);
     }
   }
 
@@ -162,15 +163,16 @@
       display: block;
       margin-bottom: 0.5rem;
       font-weight: 500;
-      color: #333;
+      color: getColor(foreground-rich);
 
       .required {
-        color: #d00;
+        color: getColor(red);
       }
 
       .hint {
         font-size: 0.85rem;
-        color: #666;
+        color: getColor(foreground);
+        opacity: 0.7;
         font-weight: normal;
       }
     }
@@ -179,19 +181,22 @@
     textarea {
       width: 100%;
       padding: 0.75rem;
-      border: 1px solid #ddd;
+      border: 2px solid getColor(background-rich);
       border-radius: 4px;
       font-family: inherit;
       font-size: 1rem;
+      background: getColor(background);
+      color: getColor(foreground);
       transition: border-color 0.2s;
+      box-sizing: border-box;
 
       &:focus {
         outline: none;
-        border-color: #4a90e2;
+        border-color: getColor(purple);
       }
 
       &:disabled {
-        background: #f0f0f0;
+        opacity: 0.5;
         cursor: not-allowed;
       }
     }
@@ -205,27 +210,28 @@
   .char-count {
     text-align: right;
     font-size: 0.85rem;
-    color: #666;
+    color: getColor(foreground);
+    opacity: 0.7;
     margin-top: 0.25rem;
   }
 
   .submit-btn {
     padding: 0.75rem 2rem;
-    background: #4a90e2;
-    color: white;
+    background: getColor(purple);
+    color: getColor(background);
     border: none;
     border-radius: 4px;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: opacity 0.2s;
 
     &:hover:not(:disabled) {
-      background: #357abd;
+      opacity: 0.85;
     }
 
     &:disabled {
-      background: #ccc;
+      opacity: 0.5;
       cursor: not-allowed;
     }
   }
@@ -236,22 +242,23 @@
     margin-bottom: 1rem;
 
     &.error {
-      background: #fee;
-      color: #c00;
-      border: 1px solid #fcc;
+      background: getColor(red);
+      color: getColor(background);
+      opacity: 0.9;
     }
 
     &.success {
-      background: #efe;
-      color: #060;
-      border: 1px solid #cfc;
+      background: getColor(green);
+      color: getColor(background);
+      opacity: 0.9;
     }
   }
 
   .note {
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: #666;
+    color: getColor(foreground);
+    opacity: 0.7;
     font-style: italic;
   }
 </style>

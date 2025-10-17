@@ -7,14 +7,17 @@
   const maxDepth = 3; // Maximum nesting level for replies
 
   function formatDate(dateString: string): string {
+    // Parse the ISO string (which is in UTC) and convert to local time
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
+
+    // This will automatically display in the user's local timezone
+    return new Intl.DateTimeFormat(undefined, {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
       hour: '2-digit',
       minute: '2-digit'
-    });
+    }).format(date);
   }
 </script>
 
@@ -40,7 +43,7 @@
 <style lang="scss">
   .comment {
     padding: 1rem 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid getColor(background-rich);
 
     &.nested {
       border-bottom: none;
@@ -56,17 +59,18 @@
   }
 
   .author {
-    color: #333;
+    color: getColor(foreground-rich);
     font-size: 0.95rem;
   }
 
   .date {
-    color: #666;
+    color: getColor(foreground);
     font-size: 0.85rem;
+    opacity: 0.7;
   }
 
   .comment-content {
-    color: #444;
+    color: getColor(foreground);
     line-height: 1.6;
     white-space: pre-wrap;
     word-wrap: break-word;

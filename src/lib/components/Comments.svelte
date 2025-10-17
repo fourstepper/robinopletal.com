@@ -1,30 +1,30 @@
 <script lang="ts">
-  import CommentItem from './CommentItem.svelte';
-  import CommentForm from './CommentForm.svelte';
-  import type { CommentDisplay } from '$lib/types/comment';
+  import CommentItem from "./CommentItem.svelte";
+  import CommentForm from "./CommentForm.svelte";
+  import type { CommentDisplay } from "$lib/types/comment";
 
   export let postSlug: string;
   export let initialComments: CommentDisplay[] = [];
 
   let comments = initialComments;
   let isLoading = false;
-  let errorMessage = '';
+  let errorMessage = "";
 
   async function refreshComments() {
     isLoading = true;
-    errorMessage = '';
+    errorMessage = "";
 
     try {
       const response = await fetch(`/api/comments/${postSlug}`);
 
       if (!response.ok) {
-        throw new Error('Failed to load comments');
+        throw new Error("Failed to load comments");
       }
 
       comments = await response.json();
     } catch (error: any) {
-      errorMessage = error.message || 'Failed to load comments';
-      console.error('Error loading comments:', error);
+      errorMessage = error.message || "Failed to load comments";
+      console.error("Error loading comments:", error);
     } finally {
       isLoading = false;
     }
@@ -55,7 +55,9 @@
         <button on:click={refreshComments} class="retry-btn">Retry</button>
       </div>
     {:else if comments.length === 0}
-      <p class="no-comments">No comments yet. Be the first to share your thoughts!</p>
+      <p class="no-comments">
+        No comments yet. Be the first to share your thoughts!
+      </p>
     {:else}
       {#each comments as comment}
         <CommentItem {comment} depth={0} />
@@ -67,7 +69,6 @@
 <style lang="scss">
   .comments-section {
     margin-top: 3rem;
-    padding-top: 2rem;
     border-top: 2px solid #e0e0e0;
   }
 
