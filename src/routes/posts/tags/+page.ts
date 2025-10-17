@@ -17,5 +17,14 @@ export const load = async ({ url, fetch }: { url: URL; fetch: any }) => {
     }
   }
 
+  // Sort tags by count (descending) then alphabetically
+  uniqueTags.sort((a, b) => {
+    const countDiff = tagCounts[b] - tagCounts[a];
+    if (countDiff !== 0) {
+      return countDiff;
+    }
+    return a.localeCompare(b);
+  });
+
   return { uniqueTags, tagCounts };
 };
