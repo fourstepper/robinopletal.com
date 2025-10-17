@@ -107,4 +107,4 @@ Routes using `export const prerender = true`:
 
 ## Git Commits
 
-All git commits should be semantic and as concise as possible. Use conventional commit format when appropriate and keep commit messages clear and descriptive. Don't write all changes as bullet points, try to keep the commit a one-liner.
+All git commits should be semantic and as concise as possible. Use conventional commit format when appropriate and keep commit messages clear and descriptive. Commit messages must be a single line only - do not include multi-line descriptions, bullet points, or additional metadata like "Generated with Claude Code" or "Co-Authored-By" lines.
