@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: robinopletal-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: robinopletal
+      POSTGRES_USER: robinopletal
+      POSTGRES_PASSWORD: dev_password_change_in_production
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./src/lib/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U robinopletal -d robinopletal"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    name: robinopletal_postgres_data

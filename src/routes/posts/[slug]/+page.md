@@ -1,6 +1,7 @@
 <script lang="ts">
   export let data: PostMetadata;
   import { siteTitle } from "$lib/config";
+  import Comments from "$lib/components/Comments.svelte";
 </script>
 
 <svelte:head>
@@ -19,6 +20,8 @@
 <svelte:component this={data.content} />
 
 </article>
+
+<Comments postSlug={data.slug} initialComments={data.comments} />
 
 <style lang="scss">
 	.published {
