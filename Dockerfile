@@ -1,40 +1,55 @@
-# Build the first stage with alpine node image and name as build
-FROM node:20-alpine as build
+# Build stage
+FROM node:22-alpine AS build
 
-# update and install the latest dependencies on docker base image
-# Add non root user to the docker image and set the user
-RUN apk update && apk upgrade && adduser -D svelteuser
+# Install security updates and dependencies
+RUN apk update && apk upgrade --no-cache && \
+    adduser -D svelteuser
+
 USER svelteuser
-
-# set work dir as app
 WORKDIR /app
 
-# copy the sveltkit project content with proper permission for the user svelteuser
-COPY --chown=svelteuser:svelteuser . /app
+# Copy package files first for better layer caching
+COPY --chown=svelteuser:svelteuser package*.json ./
 
-# install all the project npm dependencies and
-# build the svelte project to generate the artifacts in build directory
-RUN npm install && npm run build
+# Install dependencies
+RUN npm ci --omit=dev --ignore-scripts && \
+    npm cache clean --force
 
-# we are using multi stage build process to keep the image size as small as possible
-FROM node:20-alpine
-# update and install latest dependencies, add dumb-init package
-# add and set non root user
-RUN apk update && apk upgrade && apk add dumb-init && adduser -D svelteuser
+# Copy source code
+COPY --chown=svelteuser:svelteuser . .
+
+# Install dev dependencies and build
+RUN npm ci --ignore-scripts && \
+    npm run build && \
+    npm prune --production
+
+# Production stage
+FROM node:22-alpine
+
+# Install security updates, dumb-init, and create user
+RUN apk update && apk upgrade --no-cache && \
+    apk add --no-cache dumb-init && \
+    adduser -D svelteuser
+
 USER svelteuser
-
-# set work dir as app
 WORKDIR /app
 
-# copy the build directory to the /app directory of second stage
-COPY --chown=svelteuser:svelteuser --from=build /app/build /app/package.json ./
+# Copy built artifacts and production dependencies from build stage
+COPY --chown=svelteuser:svelteuser --from=build /app/build ./build
+COPY --chown=svelteuser:svelteuser --from=build /app/node_modules ./node_modules
+COPY --chown=svelteuser:svelteuser --from=build /app/package.json ./
 
-# expose 8080 on container
+# Expose port
 EXPOSE 8080
 
-# set app host and port and env as production
-ENV HOST=0.0.0.0 PORT=8080 NODE_ENV=production
+# Environment variables
+ENV HOST=0.0.0.0 \
+    PORT=8080 \
+    NODE_ENV=production
 
-# start the app with dumb init to spawn the Node.js runtime process
-# with signal support
-CMD ["dumb-init","node","index.js"]
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD node -e "require('http').get('http://localhost:8080', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"
+
+# Start application with dumb-init
+CMD ["dumb-init", "node", "build/index.js"]
