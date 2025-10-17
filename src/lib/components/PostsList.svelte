@@ -5,8 +5,8 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="/posts/{post.slug}">
-        <div class="bordered-list">
+      <div class="bordered-list">
+        <a href="/posts/{post.slug}" class="post-link">
           <div class="date">
             {post.date}
           </div>
@@ -18,20 +18,20 @@
               {post.description}
             </div>
           {/if}
-          {#if post.tags}
-            <div class="tags">
-              <span>Tags: </span>
-              <ul>
-                {#each post.tags as tag}
-                  <li>
-                    <a href="/posts/tags/{tag}">{tag}</a>
-                  </li>
-                {/each}
-              </ul>
-            </div>
-          {/if}
-        </div>
-      </a>
+        </a>
+        {#if post.tags}
+          <div class="tags">
+            <span>Tags: </span>
+            <ul>
+              {#each post.tags as tag}
+                <li>
+                  <a href="/posts/tags/{tag}">{tag}</a>
+                </li>
+              {/each}
+            </ul>
+          </div>
+        {/if}
+      </div>
     </li>
   {/each}
 </ul>
@@ -46,9 +46,10 @@
   li {
     list-style-type: none;
     margin-bottom: 2rem;
-    a {
-      text-decoration: none;
-    }
+  }
+  .post-link {
+    text-decoration: none;
+    display: block;
   }
   li:first-child {
     margin-top: 2rem;

@@ -8,8 +8,15 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "${fileURLToPath(new URL("./src/variables.scss", import.meta.url))}" as *;`
+        additionalData: `@use "${fileURLToPath(new URL("./src/variables.scss", import.meta.url))}" as *;`,
+        api: "modern-compiler"
       }
+    }
+  },
+
+  build: {
+    rollupOptions: {
+      external: ['pg']
     }
   }
 });

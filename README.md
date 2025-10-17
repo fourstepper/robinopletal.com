@@ -26,6 +26,10 @@ npm run build
 npm run build && npm run preview
 ```
 
+## Documentation
+
+- [Database Setup and Migrations](docs/database.md) - PostgreSQL setup, schema migrations, and common database operations
+
 ### Shoutouts!
 
 This site would take way more time if it weren't for these resources:
