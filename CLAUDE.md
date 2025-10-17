@@ -9,27 +9,32 @@ This is a SvelteKit-based personal website and blog for Robin Opletal (robinople
 ## Development Commands
 
 ### Development Server
+
 ```bash
 npm run dev
 ```
 
 ### Building
+
 ```bash
 npm run build
 ```
 
 ### Build and Preview
+
 ```bash
 npm run build && npm run preview
 ```
 
 ### Type Checking
+
 ```bash
 npm run check           # One-time check
 npm run check:watch     # Watch mode
 ```
 
 ### Linting and Formatting
+
 ```bash
 npm run lint            # Check formatting and linting
 npm run format          # Auto-format code with Prettier
@@ -40,6 +45,7 @@ npm run format          # Auto-format code with Prettier
 ### Content Management System
 
 Blog posts are Markdown files stored in `src/lib/posts/` with frontmatter metadata:
+
 - **Format**: `.md` files processed by mdsvex
 - **Required frontmatter fields**: `title`, `date`, `tags`, `description`
 - **Dynamic imports**: Posts are loaded using Vite's `import.meta.glob()` pattern
@@ -48,11 +54,13 @@ Blog posts are Markdown files stored in `src/lib/posts/` with frontmatter metada
 ### Key Helper Functions
 
 **`fetchPosts()` (src/lib/helpers/fetchPosts.ts)**
+
 - Dynamically loads all markdown posts from `/src/lib/posts/*.md`
 - Returns sorted post metadata with slug derived from filename
 - Used by both the blog listing page and API endpoint
 
 **RSS Feed (src/lib/helpers/rss.ts)**
+
 - Generates RSS XML feed from all blog posts
 - Exposed via `/rss.xml` route
 
@@ -68,16 +76,19 @@ Blog posts are Markdown files stored in `src/lib/posts/` with frontmatter metada
 ### Prerendering
 
 Routes using `export const prerender = true`:
+
 - `/api/posts.json` - Static JSON of all posts
 - `/rss.xml` - Static RSS feed
 
 ### Configuration
 
 **Site config (src/lib/config.ts)**
+
 - Centralized site metadata: title, description, URL, author
 - Navigation items
 
 **mdsvex config (mdsvex.config.js)**
+
 - Markdown processing with rehype plugins for heading slugs and auto-linking
 - Smartypants enabled for typography
 
@@ -96,4 +107,4 @@ Routes using `export const prerender = true`:
 
 ## Git Commits
 
-All git commits should be semantic and as concise as possible. Use conventional commit format when appropriate and keep commit messages clear and descriptive.
+All git commits should be semantic and as concise as possible. Use conventional commit format when appropriate and keep commit messages clear and descriptive. Don't write all changes as bullet points, try to keep the commit a one-liner.
