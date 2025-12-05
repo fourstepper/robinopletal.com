@@ -13,12 +13,27 @@
 
 <h1>Blog</h1>
 
-<a href="/posts/tags">All tags ></a>
+<div class="links">
+  <a href="/posts/tags">All tags ></a>
+  <a href="/posts/archive">Archive ></a>
+</div>
 
-<PostsList posts={data.posts} />
+{#if data.posts.length === 0}
+  <p>
+    No recent posts. Check out the <a href="/posts/archive">archive</a> for older
+    posts.
+  </p>
+{:else}
+  <PostsList posts={data.posts} />
+{/if}
 
 <style lang="scss">
   h1 {
     margin-bottom: 0;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
   }
 </style>
