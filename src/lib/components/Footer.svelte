@@ -5,7 +5,7 @@
 <div class="hover-links">
   <hr />
   <footer>
-    <a href="/">Robin Opletal, 2023-{currentYear}</a>
+    <a>Robin Opletal, 2023-{currentYear}</a>
     <div class="vertical-divider" />
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
       >Content is CC-BY-4.0</a
