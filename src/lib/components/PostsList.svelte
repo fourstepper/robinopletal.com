@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let posts: PostMetadata[] = [];
+  export let posts: Post[] = [];
 </script>
 
 <ul>
