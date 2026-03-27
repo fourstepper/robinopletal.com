@@ -24,11 +24,7 @@
       >kiwi.com</a
     > ✈️.
   </p>
-  <p>
-    If you think I could help you with your project as well, <a href="/contact"
-      >please do let me know!</a
-    >
-  </p>
+
   <h2>How I relax 🏃 📖 💻</h2>
   <p>
     I am up for most sports, however swimming, cycling, running and climbing
