@@ -5,12 +5,12 @@
 <div class="hover-links">
   <hr />
   <footer>
-    <a>Robin Opletal, 2023-{currentYear}</a>
-    <div class="vertical-divider" />
+    <span>Robin Opletal, 2023-{currentYear}</span>
+    <div class="vertical-divider"></div>
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
       >Content is CC-BY-4.0</a
     >
-    <div class="vertical-divider" />
+    <div class="vertical-divider"></div>
     <a
       class="link-hover"
       href="https://github.com/fourstepper/robinopletal.com"

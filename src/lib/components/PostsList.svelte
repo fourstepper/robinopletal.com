@@ -5,33 +5,31 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="/posts/{post.slug}">
-        <div class="bordered-list">
-          <div class="date">
-            {post.date}
-          </div>
-          <h2>
-            {post.title}
-          </h2>
-          {#if post.description}
-            <div class="description">
-              {post.description}
-            </div>
-          {/if}
-          {#if post.tags}
-            <div class="tags">
-              <span>Tags: </span>
-              <ul>
-                {#each post.tags as tag}
-                  <li>
-                    <a href="/posts/tags/{tag}">{tag}</a>
-                  </li>
-                {/each}
-              </ul>
-            </div>
-          {/if}
+      <div class="bordered-list">
+        <div class="date">
+          {post.date}
         </div>
-      </a>
+        <h2>
+          <a class="post-link" href="/posts/{post.slug}">{post.title}</a>
+        </h2>
+        {#if post.description}
+          <div class="description">
+            {post.description}
+          </div>
+        {/if}
+        {#if post.tags}
+          <div class="tags">
+            <span>Tags: </span>
+            <ul>
+              {#each post.tags as tag}
+                <li>
+                  <a href="/posts/tags/{tag}">{tag}</a>
+                </li>
+              {/each}
+            </ul>
+          </div>
+        {/if}
+      </div>
     </li>
   {/each}
 </ul>
@@ -56,6 +54,12 @@
   li:last-child {
     margin-bottom: 0;
   }
+  // stretch the post link over the whole card so it stays clickable
+  .post-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
   .description {
     margin-bottom: 0.5rem;
   }
@@ -63,6 +67,7 @@
     font-size: 0.875rem;
   }
   .bordered-list {
+    position: relative;
     border: solid;
     border-width: 0.1rem;
     border-color: getColor(blue);
@@ -81,6 +86,8 @@
     padding: 0;
     margin-top: 1rem;
     a {
+      position: relative;
+      z-index: 1;
       text-decoration: none;
     }
     ul {
