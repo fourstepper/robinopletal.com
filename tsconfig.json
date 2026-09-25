@@ -4,7 +4,7 @@
     // "dom" added based on https://github.com/DefinitelyTyped/DefinitelyTyped/issues/19799
     "lib": [ "es2017", "dom"],
     "module": "es2022",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,

@@ -3,7 +3,8 @@ FROM node:22-alpine AS build
 
 # Install security updates and dependencies
 RUN apk update && apk upgrade --no-cache && \
-    adduser -D svelteuser
+    adduser -D svelteuser && \
+    mkdir /app && chown svelteuser:svelteuser /app
 
 USER svelteuser
 WORKDIR /app
