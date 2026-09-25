@@ -9,7 +9,7 @@ export async function load({ params }: { params: any }) {
   }
 
   try {
-    const { title, date, description } = post.metadata;
+    const { title, date, description, tags } = post.metadata;
     const content = post.default;
 
     return {
@@ -17,6 +17,7 @@ export async function load({ params }: { params: any }) {
       title,
       date: new Date(date).toDateString(),
       description,
+      tags,
     };
   } catch {
     throw error(
